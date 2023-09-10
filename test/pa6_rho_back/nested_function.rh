@@ -1,0 +1,51 @@
+use io
+use conv
+
+main(args: int[][]){
+    arg1: int = 2
+    arg2: int = 1
+    arg3: int = 2
+    arg4: int = 2
+    arg5: int = 6
+    arg6: int = 5
+    arg7: int = 4
+    arg8: int = 5
+    arg9: int = 2
+    arg10: int = 3
+    res1: int, res2: int, res3: int, res4: int, res5: int, res6: int, res7: int, res8: int, res9: int, res10: int = master(a1(arg1), a1(arg2), a1(arg3), a1(arg4), a1(arg5), a1(arg6), a1(arg7), a1(arg8), a1(arg9), a1(arg10))
+    println(unparseInt(res1))
+    println(unparseInt(res2))
+    println(unparseInt(res3))
+    println(unparseInt(res4))
+    println(unparseInt(res5))
+    println(unparseInt(res6))
+    println(unparseInt(res7))
+    println(unparseInt(res8))
+    println(unparseInt(res9))
+}
+
+master(a: int, b: int, c: int, d: int, e: int, f: int, g: int, h: int, i: int, j: int): int, int, int, int, int, int, int, int, int, int{
+    println(unparseInt(a))
+    println(unparseInt(b))
+    println(unparseInt(c))
+    println(unparseInt(d))
+    println(unparseInt(e))
+    println(unparseInt(f))
+    sum: int = a + b + c + d + e + f + g + h + i + j
+    return a + sum, b + sum, c + sum, d + sum, e + sum, f + sum, g + sum, h + sum, i + sum, j + sum
+}
+
+a1(a: int): int{
+    res: int = 0
+    res = accumulate(a, res)
+    return res
+}
+
+accumulate(a: int, res: int): int{
+    if (a == 0){
+        return res
+    }
+    else{
+        return accumulate(a - 1, res + a)
+    }
+}

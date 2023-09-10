@@ -1,0 +1,2964 @@
+commit f2ea07d62d236c919ff2310ff943d8cda052e470
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 17 14:27:49 2023 -0400
+
+    refactored code
+
+commit ce9908cdf5376e67504d45ed3a0e3af5b65c2069
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 17 14:27:35 2023 -0400
+
+    refactored code
+
+commit 8ea796337cb3cc17c67ee0ec35c8ea4b566213db
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 17 14:03:15 2023 -0400
+
+    refactored code
+
+commit 7b4371eb59f03d6cbc8ec331bc6c6223fa7e078f
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Apr 14 14:33:03 2023 -0400
+
+    Delete runtime directory
+
+commit 16e7ec5b19e0835f217f4cdccba9e454c47d32f8
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Apr 14 14:30:21 2023 -0400
+
+    added runtime, updated pa5 eth script
+
+commit e35a36cb25a53842d1c95b005350d6a213d7ab46
+Merge: b8eb8f2 fe12c90
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Apr 14 14:04:36 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit fe12c9095345553e05e124059b673a483cc5e0d5
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Fri Apr 14 14:03:46 2023 -0400
+
+    updated multi func 6
+
+commit b8eb8f282e366782cfe511e9e0f6c88573fbefe0
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Apr 14 13:43:02 2023 -0400
+
+    Merge branch 'master' of D:\Cornell\23SP\CS4120\compilers-gradle with conflicts.
+
+commit 61e36f0418e0486fea7bb2685dc9ae02a2a72df6
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Fri Apr 14 12:56:13 2023 -0400
+
+    updated nested function
+
+commit 0e765b2f6d911cbc67fa7d92fa8b64bb3d8eb38b
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Fri Apr 14 12:47:53 2023 -0400
+
+    recursion ssol
+
+commit 454e3f032444d71664271ec1ed3c12563b48b8ca
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Fri Apr 14 12:46:58 2023 -0400
+
+    updated eth
+
+commit f4c51a2d7f905f62dcce56bb477dcd98adcd6812
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Fri Apr 14 12:44:35 2023 -0400
+
+    added multi_function test
+
+commit 01cf0ed7f4366f92738b22c688d6c81ae8c01974
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Thu Apr 13 17:26:37 2023 -0400
+
+    eth
+
+commit 54c606dec35626fe55bb5f1db4b0d245c6ccd881
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Apr 13 16:56:50 2023 -0400
+
+    Delete multi_function.eta
+
+commit 49cf1d2db0e6ad90ef88a42e625f7fd0d778a6aa
+Merge: 7cb96a9 dc02152
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Thu Apr 13 16:56:15 2023 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 7cb96a9fe76232ff7a8d7722d12bcd07b0ae592c
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Thu Apr 13 16:56:04 2023 -0400
+
+    updated eth and arg
+
+commit dc02152c4142f004a1e267ba0f3ed2d63224cde3
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Apr 13 16:55:14 2023 -0400
+
+    fixed bug
+
+commit 730d7cd60408478faa424d65ba7bfbd48cc43607
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Apr 13 16:33:55 2023 -0400
+
+    fixed bug
+
+commit 4e12af71f4ea8d72cec465127aeea3d65494fe76
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Apr 13 16:11:42 2023 -0400
+
+    fixed bug
+
+commit b409d137ee1c44c9d37651d9e97a110071f952ed
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Apr 13 16:07:28 2023 -0400
+
+    fix bug
+
+commit e3625ad6347b7528edb2e351a869f6135bc156f9
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Apr 13 15:58:36 2023 -0400
+
+    fixed bug
+
+commit 12211bf5ee2bb2a5c1ea990d83826a9c155409a0
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Apr 13 15:52:06 2023 -0400
+
+    fixed bug
+
+commit a877fcd38419f02a6b26e42dc1bbf60ad069422e
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Thu Apr 13 15:21:04 2023 -0400
+
+    fixed bug
+
+commit ad79e91ee428321bcbabc39c3592b1f74cd563ee
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Thu Apr 13 15:19:47 2023 -0400
+
+    fixed bug
+
+commit 4aeaae8431c877d6b1261812e892ff3df00ece59
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Apr 13 14:31:23 2023 -0400
+
+    use r12 register
+
+commit 8678f8cfd97c485e49580da5a024ce12337b4360
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Thu Apr 13 13:21:47 2023 -0400
+
+    fixed bug
+
+commit 0281c9aa58aadaf711a0a2ed12483bd00dd91bc2
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Apr 13 13:16:36 2023 -0400
+
+    fixed bug
+
+commit 80c471ebb881b1c790f653688b40c681fea64574
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Apr 13 12:13:45 2023 -0400
+
+    reformat
+
+commit 9596669f22a53161abf6b278e56513d6454d474d
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Thu Apr 13 11:16:10 2023 -0400
+
+    failed at 6 arg
+
+commit e8adfaa9cbfaa5255d80d9666d854571b8e5b347
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Thu Apr 13 11:12:58 2023 -0400
+
+    earliest seg fault
+
+commit 2415e51384f90336e707474403ffb46eb5981829
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Thu Apr 13 11:04:10 2023 -0400
+
+    update eth
+
+commit 8c832d5b2d56f36b3ee41871c7e8bd2629336bd5
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Thu Apr 13 11:03:55 2023 -0400
+
+    isolated ret and arg
+
+commit 5156b7abc8371a843813eb747280b2b0acb7003b
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Apr 13 00:30:39 2023 -0400
+
+    fixed bug
+
+commit be262ab8efaf9c460c6988f4c576a602e2935c98
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Wed Apr 12 23:48:30 2023 -0400
+
+    updated eth
+
+commit 5ff1d68f98c13db22f3faa722950ef3d02b17a24
+Merge: 8c31c07 b7c45ec
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Wed Apr 12 23:47:31 2023 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 8c31c07430eaadf17712aa5216d17960a22fa22d
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Wed Apr 12 23:47:23 2023 -0400
+
+    added calling convention simple
+
+commit b7c45ec22c6352288c4cf19a5f537551b25ff06f
+Merge: 397320e 56023d2
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Apr 12 23:39:23 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 397320edb53fc89d5036dbbfa48d2f1813319adb
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Apr 12 23:39:18 2023 -0400
+
+    fixed bug
+
+commit 56023d26761d5ac36f7372666f47e86e5c405e21
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Wed Apr 12 23:34:41 2023 -0400
+
+    udpated eth_pa5
+
+commit cae3e703d3c7c9db46413e75aae2f182495704dc
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Wed Apr 12 23:31:26 2023 -0400
+
+    updated eth_pa5 for new test case
+
+commit 3a6be75f4167eca92c41f9ab33281ca708948d2f
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Wed Apr 12 23:15:22 2023 -0400
+
+    added multi-arg test case
+
+commit 898144578daaeaabb26817985826a30af4edca3c
+Merge: 35f84cf a0772f9
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Wed Apr 12 16:24:37 2023 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 35f84cf2821ab763dcca4a7d40bd488e09248c5b
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Wed Apr 12 16:24:32 2023 -0400
+
+    calling convention 2 arguments
+
+commit a0772f938dece910c0f05182aafa8818896ed945
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Apr 12 16:05:36 2023 -0400
+
+    revert Makefile
+
+commit 1920f78cd95c03aff84df08b4d337743d781e419
+Merge: 635c981 052fa29
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Apr 12 16:04:46 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit 635c981544f93fcc480bddbbd44c9267aeee7af4
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Apr 12 16:04:37 2023 -0400
+
+    fix bugs
+
+commit 052fa2982bc3ceccd475399ce650ab3b89182d7b
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Wed Apr 12 13:38:49 2023 -0400
+
+    added while solution
+
+commit c3186365f3c9150d71df2db5de382397f11989b1
+Merge: 8dcf573 3e1c9a7
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Wed Apr 12 13:32:38 2023 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 8dcf573e15ed6f57c9668532a2bf583b815e074d
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Wed Apr 12 13:32:16 2023 -0400
+
+    complicated bop test
+
+commit 3e1c9a77874b2e488c14a792bee54221c87ace1d
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Apr 12 12:43:15 2023 -0400
+
+    fixed bug
+
+commit e63df37c1302962e49708533427eb0f53daf44f6
+Merge: d6ec0e2 9ef8cca
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 20:06:53 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit d6ec0e266f59612c13ecec2e210ce59e3c1b97a8
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 20:06:48 2023 -0400
+
+    fix set issue
+
+commit 9ef8cca979c292c11e3bb3f8b5b5a258246d3722
+Merge: d4ada37 6af0d5a
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Tue Apr 11 20:01:47 2023 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit d4ada370bde41ad4e08b74fe7add4be5f1088ee9
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Tue Apr 11 20:01:40 2023 -0400
+
+    array test case
+
+commit 6af0d5a345cc8efc3535dbf2a2d8e004abd98650
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 19:58:23 2023 -0400
+
+    add movsx
+
+commit 2144feea0b6225fc7ecf4f2cf613c1ced01330fc
+Merge: 51521cf 71c4abc
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 19:54:36 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 51521cf69732a3f55cd6101cfeefa394a72ebbfc
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 19:54:30 2023 -0400
+
+    added new move
+
+commit 71c4abc333305ba9c3f5dc0ed28bf237385cbcf2
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Tue Apr 11 19:40:03 2023 -0400
+
+    added array access test case
+
+commit 93817ae1d513b4e392906e4df843827dae415bae
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 19:38:30 2023 -0400
+
+    remove assign07.eta
+
+commit 06735e9b021ca37df52997d84bc191417041a9d1
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 19:37:21 2023 -0400
+
+    fix mov bug
+
+commit 6a8e7de62854c3bb76d3ead465be4d77d4774c6f
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 19:25:31 2023 -0400
+
+    debug
+
+commit 7ba79a0e6d8df00a16dd36d9f7d841c4462ad36f
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 17:44:07 2023 -0400
+
+    debug
+
+commit dcea308c95a83acae402dbe8b90dd506212cf37d
+Merge: a81c25f b3241aa
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 17:28:45 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit a81c25f9a39228d0cc07dcad0e2dd42e76c3b56b
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 17:28:39 2023 -0400
+
+    debug
+
+commit b3241aa2ed4dcf1d13bc5cbba4e26889c5d14983
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Tue Apr 11 17:02:55 2023 -0400
+
+    updated eth_pa5
+
+commit 4f1e2b4c9040c8fff95a7139aef85c62271c511c
+Merge: a05e640 d2835cc
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 16:50:11 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit a05e640c540f6510b60f6d078b03ddd6d0571ef0
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 16:50:03 2023 -0400
+
+    pa5 cases
+
+commit d2835cc4c39a88b2432b8f9226c79762c6124ff6
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 16:46:42 2023 -0400
+
+    fix cmp
+
+commit 74777d16c0a832e59a2904719bf8af9eedf52ca2
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 16:39:59 2023 -0400
+
+    fix cmp
+
+commit 0f18a22e8292f4b132d8cf93089ec8f06ebb7d69
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 16:29:59 2023 -0400
+
+    debug
+
+commit 06dd088852cc29767ea9cd7c4dc574238edf4dcc
+Merge: a94fbb5 0b75002
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 16:23:04 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit a94fbb54cc3b99e174c597d969ef2dc20658af94
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 16:22:58 2023 -0400
+
+    add xor case
+
+commit 0b750021d88d4e7d86f5068b7798452b0623e734
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 16:15:58 2023 -0400
+
+    debug
+
+commit 2f15b3640f1fddcc750f4ba2654e1f515588a0e2
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 15:58:19 2023 -0400
+
+    update makefile
+
+commit d344640ce6835022f97dcb3fa009df981c8b924f
+Merge: 239e84a 9f13c1b
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 15:57:29 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit 239e84afa4a6ebf3198f32058a3a5fb067af7774
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 15:57:23 2023 -0400
+
+    update makefile
+
+commit 9f13c1bd42ab1f1a56b1eaa7daad091f2e5d6bd8
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 15:50:26 2023 -0400
+
+    debug
+
+commit 09b26cbc3cbbd2fc14216127588bd3cbd6e4e62b
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 15:38:23 2023 -0400
+
+    fix uop bug
+
+commit 90322cbd3c55c7058e999cd0f83b4a8f55e5c0af
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 15:36:54 2023 -0400
+
+    debug
+
+commit 4f976bede14b5af17f35e9b037f847f7094e0615
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 15:24:02 2023 -0400
+
+    refactor push and pop
+
+commit 21abed562680ddc198b71d437bc85061b8aa33e6
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 15:05:23 2023 -0400
+
+    remove extra files
+
+commit 338f4ff56d3cc950c922620f656f99592d34b92d
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 15:04:53 2023 -0400
+
+    fix mov bug
+
+commit f8294d818dc8ea398c30a6e129ed4011c56aa6ae
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 14:19:24 2023 -0400
+
+    debug
+
+commit a2edfdabb9ac7af746d3655951cef15e65a12c10
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Tue Apr 11 13:49:29 2023 -0400
+
+    fixed bug in data
+
+commit 97ec9dc2ebb959957acc566d7d1f2d8462426ff1
+Merge: cb08b96 e5995ef
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 13:39:13 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit cb08b96b62e329c0b05dfd3bfe0f81eec41dd291
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 13:39:07 2023 -0400
+
+    debug
+
+commit e5995efa5e976042da0e5cb28038e857992580c7
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 13:38:01 2023 -0400
+
+    fix mov bug
+
+commit 771cfc85806283a1dcb763ab5945a7889cc0e528
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 13:20:49 2023 -0400
+
+    debug
+
+commit 4d9ea54432637913f6b0be07eabedf352524ad43
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 13:07:21 2023 -0400
+
+    fix bop.getDest() instanceof Mem
+
+commit 4460aff6bd00ff2d97169320b1c9a6b5b8118c63
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 13:01:38 2023 -0400
+
+    fix bop.getDest() instanceof Register
+
+commit 9d8b4189dfcf2abdf5f7a201a6f63066aa02a177
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 12:54:20 2023 -0400
+
+    fix bop
+
+commit 90436811f6053bf5d489c93620e47cfcc29843e5
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 12:46:13 2023 -0400
+
+    fix lea
+
+commit c624ea891aff44c7252efa84528e231b46e96699
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 12:40:28 2023 -0400
+
+    fix mov bug
+
+commit 55565020aeb6b30e1c868264537882ad847883e2
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 11 12:31:00 2023 -0400
+
+    debug
+
+commit f8a6005f99f28fc6b6f25c8f3b3e1798d40f8067
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 12:09:44 2023 -0400
+
+    fix lea
+
+commit 87f26d2b51c8c7d15de83c87434aca29f1aebc50
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Apr 11 09:37:52 2023 -0400
+
+    fix mov bug
+
+commit 177f29605d597b745f8510f710968dab61b6782e
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 23:19:33 2023 -0400
+
+    debug
+
+commit 8335879f254e7eb40cab10caa284f190ae16fbe0
+Merge: 99bcbd4 ea99914
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 21:36:13 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit 99bcbd4b41cc036c7127f5b293ebf3d7fbff4f0a
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 21:36:06 2023 -0400
+
+    refactor naive register allocation
+
+commit ea99914844f48e43c6a359ffe60e69dc008159fa
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 21:21:28 2023 -0400
+
+    debug
+
+commit 5cecbdcc3b5b4550407533e3eef47af168463b66
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 21:12:01 2023 -0400
+
+    fix register allocation bugs
+
+commit 699953d755da81499d6899ab628841dfa953e938
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 20:57:42 2023 -0400
+
+    debug
+
+commit 3dfb135b0a9ef8668e050cbd1e0fa3b5f11ed47a
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 19:45:09 2023 -0400
+
+    debug
+
+commit 8a508bc8f1c0d657c14f6cca17b2d242326d6246
+Merge: d09180d 0ca8214
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 19:38:58 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit d09180dcfc9cc29fe9a61063339ad7fbf4d1291e
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 19:38:54 2023 -0400
+
+    debug
+
+commit 0ca8214a192368f29d82dc733e60d8566ef9256b
+Merge: d25cf2f 4258462
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 19:38:33 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit d25cf2f2c0e15f087a56859b3954243d0e700c13
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 19:38:29 2023 -0400
+
+    fix set
+
+commit 425846291d058c2fea8a655092e210f65368d080
+Merge: fffa253 46718ad
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 19:38:19 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit fffa253aa21933d67941e5b3ad38f9a473a113fb
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 19:38:14 2023 -0400
+
+    debug
+
+commit 46718ad02198197f965ceb7fc409596c47096005
+Merge: cf5ac83 0658896
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Mon Apr 10 19:25:27 2023 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit cf5ac83e27fbba86c62d00e1c2212cc10e3b9319
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Mon Apr 10 19:25:22 2023 -0400
+
+    removed label indent to match example
+
+commit 065889615efd56b3379e256cdbdb0565c7f0a959
+Merge: 5b8ceb0 d741c97
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 19:24:25 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 5b8ceb0e67d081610fdb2040091d949af6c98d3a
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 19:24:19 2023 -0400
+
+    debug
+
+commit d741c97df1c2a285637698ac4404ff8b579694c5
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Mon Apr 10 19:16:44 2023 -0400
+
+    fixed bug in data
+
+commit d7d0e8f3ea3361126593224bbbdb77030626f815
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 19:16:12 2023 -0400
+
+    debug
+
+commit 4d9380c6c56af40edda5d661e906e3aaab63606b
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 19:11:27 2023 -0400
+
+    debug
+
+commit dda501766bdd6f0c1a15a56724985fdf3c6f089b
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 19:09:24 2023 -0400
+
+    debug
+
+commit cf94f894fcdda0495df577dd94b9fd96fb05a8ac
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Mon Apr 10 19:06:29 2023 -0400
+
+    fixed bug in aacompunit
+
+commit 49cf5aede3ab7986251d0d8aadd4447b34b98901
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Mon Apr 10 19:05:31 2023 -0400
+
+    Fixed CLI: does not produce empty files
+
+commit 72a85e5777944ba008f467505a02f12d389bfaee
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 18:25:30 2023 -0400
+
+    remove garbage test files
+
+commit 3b4c27ca635572842a262fd6cd40b179060992f2
+Merge: d84dc41 c5b8c85
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 18:23:04 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit d84dc412805bac4bcff73efd30e4ab60e2fab9f8
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 18:22:58 2023 -0400
+
+    implement compare
+
+commit c5b8c85a79a55ba3f0b7f124de1cd4d3029ecb5b
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Mon Apr 10 17:03:12 2023 -0400
+
+    fixed bug in AACompUnit
+
+commit abea29a31c678e4394f565e5bc0962973b193bad
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Mon Apr 10 17:00:41 2023 -0400
+
+    fixed bug in directives
+
+commit fca1f259928282a6920aba5c4ec7f693589b9545
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Mon Apr 10 17:00:15 2023 -0400
+
+    fixed bug in data
+
+commit cf92878bb59dc63c7c4a49da1c0f6d050cf15cfa
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 14:34:17 2023 -0400
+
+    debug
+
+commit ecdd5136e23c9897a0bddc5ea6518960791e8872
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 14:11:07 2023 -0400
+
+    fix iterator bug
+
+commit 37ac73e5e0a63a46501a49428c4010771af28ccf
+Merge: 9b09bf8 48c53ce
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 13:48:33 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit 9b09bf84d4ad0b8f812ce7845fd73c93575a5be3
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 13:48:17 2023 -0400
+
+    add 8 bytes for alignment
+
+commit 48c53ce9d27efc034c595c70f423c552a52354cd
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Mon Apr 10 13:13:00 2023 -0400
+
+    CLI implementation, printer in AACompUnit
+
+commit 783ab076ddd3e84949ebd064cf7df180f152602d
+Merge: 350e330 907a908
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 13:07:42 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit 350e3306e42f615c1ed858812d845d9a082220cc
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 13:07:35 2023 -0400
+
+    implement uop
+
+commit 907a908258451ab6fcd0d2fa1482028f8bccfe72
+Merge: 0ec6242 6fc5f58
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 13:04:45 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 0ec624218e9ca27daf3f47b88dc55050b967ef1e
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Apr 10 13:04:32 2023 -0400
+
+    added functions
+
+commit 6fc5f587ef404c0f9f14dc20df84c2ce6183c7a1
+Merge: 0442c45 c9acdba
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 12:43:22 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit 0442c45e11c359463be3555bbe40d1c453572920
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 12:43:15 2023 -0400
+
+    fix set error
+
+commit c9acdba911946de1b91c37572f3b0f20bd126727
+Merge: f8c1282 550ea7f
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Mon Apr 10 12:15:58 2023 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit f8c128259e11ed3a2d9b8f67685b4d341ffe4f52
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Mon Apr 10 12:15:49 2023 -0400
+
+    refactored data to use directives
+
+commit 0f00b9bd5561244e1522e6c3cad22bc5eb32d368
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Mon Apr 10 12:15:36 2023 -0400
+
+    fixed bug in directives
+
+commit 550ea7fd4eb6f3eefac7ba9b2b44cbf17906be03
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 12:07:40 2023 -0400
+
+    delete uop case
+
+commit 596b647a39c36b36245460612692f9dcf843de4d
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 11:53:10 2023 -0400
+
+    implement test
+
+commit 0e5013ac517e9fd08b9b63cad034d42298ae4924
+Merge: 469af8a db7d828
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 11:39:54 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit 469af8a964d86269fad565717a77400a62c9cb52
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 11:39:26 2023 -0400
+
+    implement set
+
+commit db7d82844bceabdf1924a9cfa61fe49151ef2fe9
+Merge: 9b5f6ae 7e29fc4
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Mon Apr 10 11:28:49 2023 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 9b5f6ae2a6319ae686a7ae56e42d2d4182b5943d
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Mon Apr 10 11:28:38 2023 -0400
+
+    added directives class
+
+commit 7e29fc41d38a96559c2b7d255167d6a19526aa1c
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 10:47:41 2023 -0400
+
+    fix rsp spilled temps assembly instruction
+
+commit 34f7046dc8330168af86fa1ef1c7ef52d1c055d4
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 10:45:56 2023 -0400
+
+    implement lea
+
+commit 614f7e1682f505df9d55f73094dcee5125ed14cc
+Merge: e6c9afb 1ab759a
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 10:00:09 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit e6c9afb58b2811dd1597ae693d24a61b3cc1e62c
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Apr 10 09:59:23 2023 -0400
+
+    fix mov
+
+commit 1ab759ae3e92d27c87e4f9482f098dbc500cc9eb
+Author: Chuhan Ouyang <co232@cornell.edu>
+Date:   Sun Apr 9 21:53:51 2023 -0400
+
+    implemented Data toString, needs testing
+
+commit 31db8b5df6f8840ff1d47ee5250f8b4e64a57d4e
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Sun Apr 9 14:06:23 2023 -0400
+
+    Fixed tileCallStmt
+
+commit 640c56257b43c8d183d3c3b8d6ce20b76488ad3b
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Sun Apr 9 14:02:55 2023 -0400
+
+    Fixed tileCallStmt
+
+commit 616970340487d2918f73d471682ac5c81aab99f7
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Sat Apr 8 23:08:53 2023 -0400
+
+    Implemented tileCallStmt
+
+commit 95896fd3ef9589681f1e0f0f7f710e25c0f26a78
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Apr 7 18:01:22 2023 -0400
+
+    added tostring's
+
+commit 3aa1a6507bd801636d7e36db2ba18544764ba2f1
+Merge: afd4bd8 1794f7f
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Apr 6 21:10:17 2023 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-gradle
+
+commit afd4bd8d2945b39b7d256a35cd663833c701a009
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Apr 6 21:09:08 2023 -0400
+
+    fixed pa4 bugs
+
+commit 1794f7f9819e39fb0f7d1ba01b0080e1ad2fb3bd
+Author: Michael Wei <mw756@cornell.edu>
+Date:   Wed Apr 5 16:25:35 2023 -0400
+
+    Update README.md
+
+commit 9957b7ccc52541bc38b5f43b3e923415580ab879
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Apr 5 14:49:40 2023 -0400
+
+    add constructor for TrivialRegAlloc class
+
+commit db6b6f774289a642476fa2cffba38244c89d943f
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Apr 5 14:46:09 2023 -0400
+
+    wip
+
+commit 3ecc96322ef4cb4b57a3b1ec4c4e5ebf4241805b
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 4 16:32:36 2023 -0400
+
+    tile cjump, jump, mov, seq
+
+commit 8e97d994cb995c9c0f3ddc10557589ea42b3ebf9
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Apr 4 15:13:43 2023 -0400
+
+    tile bop
+
+commit c285b663a754503539ecf69bb3052e21e2453609
+Author: Michael <mw756@cornell.edu>
+Date:   Fri Mar 31 14:49:03 2023 -0400
+
+    change tileCompUnit to return AACompUnit instead of List<AbstractAssembly>
+
+commit 26637e369f41c0041ecb4de797fc799f6fb3cb0d
+Author: Michael <mw756@cornell.edu>
+Date:   Fri Mar 31 14:32:03 2023 -0400
+
+    finish alloc impl
+
+commit 9142ff887c816dcc826f38f713489d006cce151c
+Author: Michael <mw756@cornell.edu>
+Date:   Fri Mar 31 12:59:17 2023 -0400
+
+    alloc bop wip
+
+commit 78b3c757c8056498daa2a7aa059feeb4749b6766
+Author: Michael <mw756@cornell.edu>
+Date:   Fri Mar 31 09:27:14 2023 -0400
+
+    fix push and pop to use r9-r11 in alloc
+
+commit 9667c91aef89d68e371ceef00a3bbed23d7db195
+Author: Michael <mw756@cornell.edu>
+Date:   Fri Mar 31 09:15:14 2023 -0400
+
+    modify tileCompUnit
+
+commit 9d202358ce6010e8b9d8dd4380d3eaca19e2604e
+Author: Michael <mw756@cornell.edu>
+Date:   Fri Mar 31 09:00:05 2023 -0400
+
+    add tileCompUnit skeleton code
+
+commit 737abb50824d9812f56f6c8f79e1bb2192efa2d9
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Mar 30 22:35:52 2023 -0400
+
+    fix tileFuncDecl
+
+commit 8ec90e6f78c96222daede13506ca845f7dd6ed86
+Merge: fe77ce8 44a5786
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Mar 30 17:59:49 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit fe77ce8b861dad28fa467c098b8e947dee8cd15e
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Mar 30 17:59:03 2023 -0400
+
+    wip
+
+commit 44a57864dcd77ec8ae8000e9e2a7ae6615065522
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 30 17:13:03 2023 -0400
+
+    add structure
+
+commit 65894f875cbe75e893e6789bedef94b16b1bd0d1
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Mar 30 15:37:02 2023 -0400
+
+    implement tileFuncDecl
+
+commit da7a1ed874a1af60641a4e063621382074c011b6
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Mar 30 15:17:30 2023 -0400
+
+    implement tileReturn
+
+commit 1733c330ff11f5f1d51c8ca8d78ba128da067093
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 30 13:31:26 2023 -0400
+
+    tiling
+
+commit 80c8b5642baf76a719b3781c1e393b462c03f867
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 29 20:19:21 2023 -0400
+
+    pa5 starter
+
+commit ba6db15d21f3a73418f8c2e444a2488be4847853
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 29 19:59:44 2023 -0400
+
+    pa5 starter
+
+commit 953a33248495fc5f97dc56319e4d7830161f450c
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 29 19:57:27 2023 -0400
+
+    pa5 starter
+
+commit 94fd97fa8ff85e65c3b998601ecd7e238c1f89d6
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Mar 17 19:42:21 2023 -0400
+
+    fix bugs, add test cases
+
+commit 3281ffee8a6ca80574498805aac990e2b591dccc
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Mar 17 19:42:13 2023 -0400
+
+    Delete edu/cornell/cs/cs4120/xic/ir/parse directory
+
+commit 1bf3b07c240c87bf0460742dc6aed68b00f81b47
+Merge: c0cd6b9 fe3a0a9
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Mar 17 19:29:59 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit c0cd6b9d0c123b33af9ed8f10fa678627d1445a8
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Mar 17 19:29:52 2023 -0400
+
+    fix bugs, add test cases
+
+commit fe3a0a967696a8b7de1fd740a91bd6e9229e43e8
+Author: Michael <mw756@cornell.edu>
+Date:   Fri Mar 17 19:26:01 2023 -0400
+
+    number of islands solution file
+
+commit b52d3e31fa32edc1abd52fa743b185ba1833f959
+Author: Michael <mw756@cornell.edu>
+Date:   Fri Mar 17 19:25:26 2023 -0400
+
+    number of islands test case
+
+commit 4314ebfc45be7513e54845bc23cd7875e4aa43e9
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Fri Mar 17 18:38:27 2023 -0400
+
+    Update eth_pa4
+
+commit e1d86b73e575079bd9046a798d39c433c1ad2939
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Fri Mar 17 18:36:15 2023 -0400
+
+    added countGoodNumbers.eta
+
+commit 26a3be09dfc2041bd41f4f4c9ec7ff544e5f784a
+Merge: 8d95fd2 3c7a954
+Author: Michael <mw756@cornell.edu>
+Date:   Fri Mar 17 18:31:51 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit 8d95fd23a9ed0abc9e6179ec934901aeda0667e2
+Author: Michael <mw756@cornell.edu>
+Date:   Fri Mar 17 18:31:44 2023 -0400
+
+    add while and if stress test cases
+
+commit 3c7a954caca8c8ad5059ec5354ffadf484ce30be
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Fri Mar 17 18:28:50 2023 -0400
+
+    added countGoodNumbers
+
+commit 7e35417bec8da20ef5ba239946a2c3acdacad897
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Mar 17 17:58:06 2023 -0400
+
+    fix bugs, add test cases
+
+commit ce12932432d7ba308772e2286abe39a080cf9330
+Author: Michael <mw756@cornell.edu>
+Date:   Fri Mar 17 16:53:31 2023 -0400
+
+    add test cases
+
+commit 46ec3b9823f29fdc98130d6fb82f62714b644734
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Mar 16 22:42:03 2023 -0400
+
+    Delete w.eta
+
+commit 42f0f06d632781759d5bbf810334a40db00e3836
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 21:59:12 2023 -0400
+
+    fix bugs, added test cases
+
+commit f717e2cce8cfce2eabe68d669e014f4dabd2df1e
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 21:32:56 2023 -0400
+
+    fix bugs
+
+commit 3d4d47fe52e59475ae87d55383ba952be63e57a2
+Merge: 4ae9901 032f05b
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 21:08:29 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 4ae99019e053ec8960ebdafa2f7398669211f93d
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 21:08:23 2023 -0400
+
+    fix bugs
+
+commit 032f05b3cb19f179cc7e202c3af71cab14c832b9
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Mar 16 21:02:16 2023 -0400
+
+    added exhaustive test cases for booleans
+
+commit 8ba05b4b9073f2b86fbb533dee188d5a3d32354d
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Mar 16 20:46:58 2023 -0400
+
+    restored files
+
+commit 0fa6e62fd9921f021d8ca00a37299159f56e884b
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Mar 16 20:45:22 2023 -0400
+
+    Create w.eta
+
+commit 7350a1ea5a844d5a767fa20d0b6348ef3c81ff73
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 16 20:41:54 2023 -0400
+
+    fix val if condition
+
+commit 9f7ec48eb31e6a65264f5e07e457ca8c1312011d
+Merge: e28ab4e cba9c72
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Mar 16 19:57:47 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit e28ab4ed34cf658d4c735935da8f0197133d0419
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Mar 16 19:57:26 2023 -0400
+
+    refactor and add test cases
+
+commit cba9c7219dc45ab68edb408a87265a8d96e096e9
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Mar 16 19:49:56 2023 -0400
+
+    Delete pa4 directory
+
+commit f42ddbc6423562c2646baf341a62b7a20b82a8f8
+Merge: 140131a 1288a89
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Mar 16 19:40:24 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit 140131aeee2131888bcc91f1f13ca9f9ed358de0
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Mar 16 19:40:11 2023 -0400
+
+    add test sol files
+
+commit 1288a893366bf99207091fd723c7cde5e0eefabc
+Merge: 0e9376d 65afb77
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 19:40:09 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 0e9376d74bd83e76fdb47f1bc71566fdd809d4e0
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 19:40:05 2023 -0400
+
+    Fixed line number issues & control
+
+commit 65afb772e0beb497a766dc1bf2bbbcd13014f46f
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Mar 16 19:38:30 2023 -0400
+
+    added solution for countGoodNumbers
+
+commit 030ee0b1be47736b18a2632c25960baeaf3bda74
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 19:38:08 2023 -0400
+
+    Fixed line number issues & control
+
+commit 305186c3f3c5ecd9b4bff38ed8804f64d104b663
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Mar 16 19:37:51 2023 -0400
+
+    added recursive test case
+
+commit 92664926ed71d54555772d249d0c4e541fd72166
+Merge: 485bb66 a1a58e9
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Mar 16 19:33:33 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit 485bb669d38dd128c971462fceb29adbc227c05c
+Merge: 9498441 76d178b
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Mar 16 19:32:37 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit a1a58e9238b6ef1ea801f7744d1a0833fe1e9b25
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Mar 16 19:25:23 2023 -0400
+
+    Create power.irsol.nml
+
+commit c7acb1af05a655df6a479b4a8e6c4e9a7883d993
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Mar 16 19:24:52 2023 -0400
+
+    created new test for recursion
+
+commit 9498441ea389c09e5d3374bbf8a13b06fc424999
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Mar 16 19:22:55 2023 -0400
+
+    add tests
+
+commit 77eac9497ba5bc80079fa387bc6f4fcc6878520e
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 18:56:17 2023 -0400
+
+    Added test cases
+
+commit a58feccb4cc9145a613a2be994e3ac6d218b224b
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 18:56:08 2023 -0400
+
+    Added test cases
+
+commit 76d178bdfd1482733c50a0c11b343afc87bba1a0
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 16 18:55:56 2023 -0400
+
+    increased heap size to avoid out of heap error
+
+commit 41559723fa9215224dc5d009bee635324528a2f9
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 18:54:18 2023 -0400
+
+    Added test cases
+
+commit feeb7dd81faea8d80b9a68bd20eba7854a0d7017
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 18:48:06 2023 -0400
+
+    ignore files
+
+commit f5874c03ba9af4096b5aa1bb2b275d167c018d77
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 18:47:07 2023 -0400
+
+    fixed bug
+
+commit d39f0f2fc6e3853b3c5783301b812843202cfd8d
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 17:42:05 2023 -0400
+
+    fixed bug
+
+commit ba35acf5b7525ee143094bea770fbf8563fb1b7b
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 17:30:26 2023 -0400
+
+    Added test cases
+
+commit 1d151809b03b4a9cab1453fe190cf6ed21bdeb39
+Merge: fd98c14 ec7ae9e
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 17:28:47 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit ec7ae9e6b2549d62a1fb64474bedcfd173621dc7
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 17:28:50 2023 -0400
+
+    Fixed CLI
+
+commit fd98c147ad0e490309a9c30adbf200c98e60bd63
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 17:28:40 2023 -0400
+
+    fixed bug
+
+commit 75c53bb7306c369c8fd7b76165641f873e6c3260
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 17:09:29 2023 -0400
+
+    Fixed CLI
+
+commit bcaab9318d4fc8b2486979517da1d550c00ff7a3
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 17:06:55 2023 -0400
+
+    fixed bug
+
+commit 19b8364c36be3b40eeffb325c20e98d5954b0974
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 16:30:45 2023 -0400
+
+    fixed bug
+
+commit c799e1b0255689732facb0bd86eaacb00bce4cc0
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 16:29:42 2023 -0400
+
+    fixed bug
+
+commit dac37c4a9309faeef8de2de0087ee7d8e9d93484
+Merge: 319d273 7b516d5
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 16:19:56 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 319d273be3e0b4e580476a8c3502084095d958c4
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 16:19:51 2023 -0400
+
+    fixed bug
+
+commit 7b516d5791d776941f2492baba1e9074d533a851
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 16:14:46 2023 -0400
+
+    Changed CLI
+
+commit 8971cc878fe6246bc362b0b5a857b417cbb2aada
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 16:07:00 2023 -0400
+
+    fixed bug
+
+commit 41f64d16cc36a1bacc565ed532de62a6058ebcb8
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 16:04:11 2023 -0400
+
+    fixed bug
+
+commit a622341616967dafeea1d7957ad8fea3388c1016
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 15:44:13 2023 -0400
+
+    Fixed CLI: no output for --irrun
+
+commit d90f3456bba98a84dba8fdf4a1e909f2e38c55c8
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 15:42:15 2023 -0400
+
+    Fixed toIR of if
+
+commit 943a8fa3094b06199e2347e1bddbf655d3f749d2
+Merge: 88cab76 ae9d085
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 15:01:23 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 88cab76a218d8eacbd9df8d8ee5217556a28575c
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 15:01:17 2023 -0400
+
+    fixed bug
+
+commit ae9d085817d3a410d2f06059c1243263029c5c11
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 14:52:26 2023 -0400
+
+    Fixed visitReturn
+
+commit 0d452ad3aa01a89e4823dca9eeb542b4c8ed1c51
+Merge: 86fce75 b238d47
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 14:43:04 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 86fce75204a03808fd3d8d23345c9a1fa536b5c7
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 14:41:21 2023 -0400
+
+    Fixed test file bugs
+
+commit b238d4716929d352850cce1fa34d1a8a940183a3
+Merge: 59039e6 16edfb4
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 14:39:56 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 59039e6b3a7a1076d2bb1311259222d15d9e5c5b
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 14:39:51 2023 -0400
+
+    fixed bug
+
+commit 16edfb43f3391e458a3169603c014d933ff68003
+Merge: 02c139d 6ae4c22
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 16 14:30:24 2023 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 02c139d83ffb734230d8be6514f2a09a29753a7f
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 16 14:30:03 2023 -0400
+
+    irrun prints to console now
+
+commit 6ae4c224ca6087d302a6d1ff2a9716fe4c0a675d
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 14:25:52 2023 -0400
+
+    Fixed one test case
+
+commit c2ca9a71eed5530ea3ab9aa0cafb9e2a8a75ca34
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 14:22:28 2023 -0400
+
+    PA4 test cases
+
+commit 1cfda018d0b0c1f278a9ed8d8c58a8393a6ba722
+Merge: 6bc484c 9c66a2c
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 14:16:18 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       src/main/java/zc246_zl345_co232_mw756/Main.java
+
+commit 6bc484c3ac006794d4221fa8dc37132708c0e3bc
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 14:15:51 2023 -0400
+
+    fixed bug
+
+commit 9c66a2c246c073b8a0424103edf24005279c5bdb
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 16 13:13:50 2023 -0400
+
+    fixed bug in CLI
+
+commit 6d9b3d21ff0e0b87e4b3887818182ce4f0fb68e1
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 13:01:27 2023 -0400
+
+    fixed bug
+
+commit db745eff1a8c672a587e493ba001df5fcb2b0ae5
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 16 12:44:23 2023 -0400
+
+    Fixed
+
+commit 4bfdb714a1abc1deb852482f23d393e9a9d6d601
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 16 12:38:51 2023 -0400
+
+    implemented irrun
+
+commit adf0e8ecebb1156560aae6940d89679ffb70f0e0
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 16 01:27:26 2023 -0400
+
+    fixed bug
+
+commit 00d9d869eacace45f6dbe9b5b17150293a41cf9d
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 15 23:52:43 2023 -0400
+
+    fixed bug
+
+commit 7be677fb3bc0222c0c5d84003bd5384a6cb3e5a8
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 15 22:35:20 2023 -0400
+
+    finish lowering
+
+commit d5f2b9ca059d9471a8498398c46a7c9fc458a4ed
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Mar 15 20:32:41 2023 -0400
+
+    fix irgen data const underscore error
+
+commit 7c57eb56419ed2d11e40235ee7a29ca0b2f76664
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Mar 15 18:03:50 2023 -0400
+
+    update gitignore to ignore *.ir files
+
+commit 4c80573a1158343a3eb969cdde258a32ac93f477
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Mar 15 18:02:53 2023 -0400
+
+    fix irgen function name issue
+
+commit cf2b312e4f584a2d5da237c4cded76fcd8911c0a
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 15 17:14:54 2023 -0400
+
+    added CLI for irgen
+
+commit b8ae1f3740471157b7e9010441043cd375b82c71
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Wed Mar 15 16:46:19 2023 -0400
+
+    Updated Cli
+
+commit dfeb2752bf40c7e5c9e941078dcda89d0d3223e9
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 15 12:57:04 2023 -0400
+
+    greedy reorder
+
+commit 27f1e5724ded0b63871159d8a19430e7671f4455
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 15 12:47:10 2023 -0400
+
+    fixed bug
+
+commit 7b8f1ef0dc6b8cfc15183fe203c273b9946be430
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 15 12:45:46 2023 -0400
+
+    fixed bug
+
+commit 92680296274ac719074e31316c96fef245f47f17
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 15 12:41:56 2023 -0400
+
+    ir level const folding
+
+commit 31cc5ba54682c4c90f10e7c5a002c225bd0e4757
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 15 01:30:40 2023 -0400
+
+    removed seq + generate basic blocks
+
+commit 10043dca73eddb90e42c7c5e92d4c7837c331cd4
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 15 01:30:05 2023 -0400
+
+    refactored code
+
+commit a6664068f691bb4851f668c8185a4ae0a81d997d
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Mar 14 20:13:02 2023 -0400
+
+    fix Program toIR() long
+
+commit f1b296c382b15c5cb05135aa29bfd02d2bcb08ac
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Mar 14 20:10:25 2023 -0400
+
+    fix Program toIR() bugs
+
+commit 140139d194992feb2e39a0d5a1ee76ccb1fcf0e7
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Mar 14 19:45:31 2023 -0400
+
+    refactored code
+
+commit 1bce206e53d515f963dbea6f1d2ce7a4f5ee1d56
+Author: Chuhan <co232@cornell.edu>
+Date:   Tue Mar 14 18:04:01 2023 -0400
+
+    removed naive commutativity approach
+
+commit 3110ec2e101757993ef18b925af73de51b4e96f2
+Author: Chuhan <co232@cornell.edu>
+Date:   Tue Mar 14 18:03:39 2023 -0400
+
+    implemented IRmove lowering
+
+commit d5ddb7241e9655cf9a6e789a84c288184180a3b2
+Author: Chuhan <co232@cornell.edu>
+Date:   Tue Mar 14 15:48:45 2023 -0400
+
+    implemented trivial lowering cases
+
+commit e100b67781add45b84cc54ab3d8f59ccdfa27998
+Author: Chuhan <co232@cornell.edu>
+Date:   Tue Mar 14 15:25:14 2023 -0400
+
+    impemented leaveIRMem
+
+commit ce5df65bed3841e73de986d58286d7641906bb89
+Author: Chuhan <co232@cornell.edu>
+Date:   Tue Mar 14 15:04:32 2023 -0400
+
+    fixed LIR ireseq
+
+commit ed4562d2ab00b1d97afedadfe1ee8813674201c7
+Author: Chuhan <co232@cornell.edu>
+Date:   Tue Mar 14 15:02:53 2023 -0400
+
+    new implementation for eseq
+
+commit b93d77d52d3457e91a9668f435f9cdc068345129
+Author: Chuhan <co232@cornell.edu>
+Date:   Tue Mar 14 14:43:39 2023 -0400
+
+    implemented leaveIRSeq
+
+commit 8dcd0509674eacfea7cc60c6cea0d3b07ae250c6
+Merge: 1bce6ca c4aa162
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Mon Mar 13 20:15:39 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 1bce6caf136b83946f401a111a1ce9cb6a4346df
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Mon Mar 13 20:15:28 2023 -0400
+
+    Added pa3 failed tests
+
+commit c4aa162056ba11726458d727a2288856302355b9
+Merge: 953a26d bcf0164
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Mar 13 20:00:46 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit 953a26de6ff866b434504990f740ea96dbf11aae
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Mar 13 20:00:41 2023 -0400
+
+    add interface toIR() impl (returns null)
+
+commit bcf01646ed88908bf5e1429c4a12580d2531d103
+Merge: 8a7f5a0 62fa35c
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Mon Mar 13 19:41:50 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 8a7f5a0d0a0321f61f267281d2643224f8916e66
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Mon Mar 13 19:41:43 2023 -0400
+
+    Implemented leaveCall
+
+commit 62fa35c84a9c428c490521525045d8a92a6fbd2b
+Merge: 9951eaa 1e42ef6
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Mar 13 19:38:29 2023 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit 9951eaaa10a65cae31a068e94a3a011d3775cc24
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Mar 13 19:38:19 2023 -0400
+
+    implement leaveIRCJump
+
+commit 1e42ef6d2230846e8888528a18cdebb3210f5113
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Mon Mar 13 19:31:24 2023 -0400
+
+    Updated CLI to output ir files
+
+commit fbd7d741c01218ab49eee04e9a765a2188bb0368
+Merge: 69ecb2b cfcb8db
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Mon Mar 13 19:25:40 2023 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 69ecb2b714d9859b7e32e44910dc2eb2f6b44655
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Mon Mar 13 19:25:33 2023 -0400
+
+    Implemented CLI for irgen
+
+commit 6fdd8e5b7ae093ad33cc93e59967eca9ffca39f3
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Mon Mar 13 19:25:12 2023 -0400
+
+    Implemented CLI for irgen
+
+commit cfcb8db912080806724c370539645b16ff624b8c
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Mar 13 19:09:36 2023 -0400
+
+    fix leaveIRBinOp
+
+commit e9b284e4a4a98daa47e732be0535ea81258eb89b
+Author: Chuhan <co232@cornell.edu>
+Date:   Mon Mar 13 18:41:04 2023 -0400
+
+    implemented leaveIrJump
+
+commit b2c7b1c370bdec8e12d6463604d1c25f424b621d
+Author: Chuhan <co232@cornell.edu>
+Date:   Mon Mar 13 18:28:05 2023 -0400
+
+    added implementatino for IRBinOp
+
+commit 34dfeac695596f140f5b625de7dca669e77d4070
+Author: Chuhan <co232@cornell.edu>
+Date:   Mon Mar 13 17:08:13 2023 -0400
+
+    using eseq for LIR
+
+commit 966368ec47a43f86939b9c3580e73924dc1c0d7b
+Author: Chuhan <co232@cornell.edu>
+Date:   Mon Mar 13 14:29:06 2023 -0400
+
+    fixed func call assignment to get multiple rv values
+
+commit c6f16260fd9db8a141f79a370fed11f382548271
+Merge: 2cbf510 e76b59d
+Author: Chuhan <co232@cornell.edu>
+Date:   Mon Mar 13 14:13:02 2023 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 2cbf510488cfc120555341b050f8595b0521510b
+Author: Chuhan <co232@cornell.edu>
+Date:   Mon Mar 13 14:12:45 2023 -0400
+
+    supports commutitivity checking for binOps
+
+commit e76b59d26fbfc4b36928c4ab11f4e4ea4f573f7b
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Sat Mar 11 20:28:53 2023 -0500
+
+    Rollback & Updated source code from CMS
+
+commit 9fb6144a06898aa604efbeced84669b139c64a1a
+Merge: dea4c47 d39658d
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Sat Mar 11 20:07:00 2023 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit dea4c47cfcb5eddb782141acdd884a01b6a985c6
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Sat Mar 11 20:06:38 2023 -0500
+
+    Updated source code from CMS
+
+commit d39658d30420666122711f41f3ea5769b4d99263
+Merge: ef66d9f 727421f
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Mar 10 16:25:53 2023 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit ef66d9f19cc0593f40e1fa18e5ae5ed181331fd0
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Mar 10 16:25:46 2023 -0500
+
+    low ir architecture
+
+commit 727421faf3e177359df0ddef49876a202aa3de1b
+Author: Michael <mw756@cornell.edu>
+Date:   Fri Mar 10 16:19:49 2023 -0500
+
+    fix declaration toIR() method
+
+commit 2c93245f9fed2d2fd82787d5378d42992efe253a
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Mar 10 13:41:17 2023 -0500
+
+    added array concatenation
+
+commit e348103786c48e39934d685109b952a03ef4b4d1
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 9 21:53:26 2023 -0500
+
+    take into considering of _ for assignment
+
+commit 45d5fe7449ae93a7c227357466cf29df34c8c848
+Merge: 2ea2da2 18f994f
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 9 21:25:26 2023 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 2ea2da2d8beec3f45888f2c99f70de94ac65addc
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 9 21:25:15 2023 -0500
+
+    assignment takes into account of array access
+
+commit 18f994f0bf467e7a8ff9005eab4198bab7830bbb
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 9 20:50:34 2023 -0500
+
+    Implemented Function definition
+
+commit fc8c020adfd9e4d2d806fa8eecb8a43fddef1e66
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 9 16:24:27 2023 -0500
+
+    fixed while with fresh label and control
+
+commit b7779094f0ac5899d42f166c3a4e5e79f95cff0e
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 9 16:15:20 2023 -0500
+
+    used control and fresh label for if
+
+commit 37ec3059e543c834f91f712cc3fb2086b8f4f8c3
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 8 23:10:49 2023 -0500
+
+    implemented assignment, block, if, return, while
+
+commit b2a9654a09d18f4b48be88a0880dd9ebc06fd4ef
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Mar 8 19:15:52 2023 -0500
+
+    implement toIR for declaration
+
+commit c0b72004a2989c569eeb26e5776bebdb0fd19242
+Merge: d70e860 b58e594
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Mar 8 18:53:50 2023 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit d70e860b740ad710747ac2ce95592d5e634e2882
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Mar 8 18:53:22 2023 -0500
+
+    implement Program and Global toIR() (Global implemented in Program)
+
+commit b58e59455d68f0da01e4f560fdf595bef72f1c94
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 8 17:27:46 2023 -0500
+
+    implemented return
+
+commit 658527b98959d9c04c571779f65e50c684e0e905
+Merge: 2c09d12 dfad2ae
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 8 16:21:23 2023 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit dfad2ae9095bae32273a9f191ba6561ced974d10
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Mar 7 20:23:05 2023 -0500
+
+    implemented constant folding and toIR for expr's
+
+commit 5c78ca1398599bbaf22d7fd1a6a630d9de7b555e
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Mar 7 12:43:24 2023 -0500
+
+    Implemented Block, ProcedureCall, Function
+
+commit a08be042025c4ae63a6d8581181e5d6b2e7b3cd6
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Mar 7 12:35:32 2023 -0500
+
+    Correct MIRCall to extend MIRExpr
+
+commit 249eb59215e871911fa355a7b96f68f56c321559
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Mar 7 12:23:27 2023 -0500
+
+    Implemented basic features for MIR class
+
+commit 03e3fb17bf9e62d717cfab75a7721bc1a40dd184
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Mar 6 18:50:32 2023 -0500
+
+    pa4 split work
+
+commit 2c09d12b373daa6350e5ccc6e32be513c6efe1f6
+Merge: 3d9d9ff 07fd893
+Author: Chuhan <co232@cornell.edu>
+Date:   Mon Mar 6 18:30:34 2023 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 07fd89347814e69a221615886beb3eddf83bfe8f
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Mar 6 18:29:42 2023 -0500
+
+    pa4 starter code
+
+commit 3d9d9ffe285e1a9106a1810d713be076762b49e0
+Merge: 5489814 967abf3
+Author: Chuhan <co232@cornell.edu>
+Date:   Mon Mar 6 17:43:58 2023 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 967abf30825b9ac28fdad639d24c2a5d30b76713
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Mar 6 17:41:25 2023 -0500
+
+    pa3
+
+commit 5489814aabf1947679bbec79b455cbe83aecac76
+Merge: 7d767d3 d3d0178
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 2 17:52:44 2023 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit d3d01780763518ef28db21fc476e4fb7163ae902
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 2 17:47:20 2023 -0500
+
+    Fixed CLI
+
+commit 7d767d3af3675c4b2edd46910d10f412be249079
+Merge: 1530ecd 992e9dc
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 2 17:46:09 2023 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 992e9dc60ecbb10223c866742f4d655692fbc84b
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 2 17:35:17 2023 -0500
+
+    Fixed CLI
+
+commit 1530ecd2295f7d570d4b3d798090fb63369f5b05
+Merge: a04e385 9feef7d
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 2 17:13:31 2023 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 9feef7d10d55523546d92640d1f65e24be3fbe4c
+Merge: 305099a 37f2e05
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 2 17:12:45 2023 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 305099af7ff2f9d3f6e08d8638942b589f182564
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Mar 2 17:12:23 2023 -0500
+
+    fixed bugs
+
+commit a04e3852a37747e140a70053e3af253b4a03aebe
+Merge: f9ec428 37f2e05
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 2 16:55:05 2023 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 37f2e0533305373117037fbcfb78c8db07130d7c
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 2 16:50:36 2023 -0500
+
+    Fixed bugs in CLI
+
+commit f9ec428a648bb02e60f61f1d958d5a80d41f716c
+Merge: fedabf1 af1309f
+Author: Chuhan <co232@cornell.edu>
+Date:   Thu Mar 2 16:01:05 2023 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit af1309fd8881cfb35c4a036c3d68f51da8fae93b
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 2 14:19:39 2023 -0500
+
+    Fixed CLI interface
+
+commit f9e9e84fa43c01e64291a3acbdbf6d6f5735b961
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Mar 2 13:02:15 2023 -0500
+
+    Updated CLI interface
+
+commit 61d5277e07c54ce02ee234869843eb937284e2f2
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 1 19:31:27 2023 -0500
+
+    fixed bugs
+
+commit 3fe998c218096cc1c1b91128d7c0841c21d45c7e
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 1 19:16:54 2023 -0500
+
+    fixed bugs
+
+commit f7cab29b98cef2f9d006d6c6cab359539646b063
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Wed Mar 1 18:45:02 2023 -0500
+
+    Updated pa1 failed tests
+
+commit 6b376930fe66e22e5422ba60c90b75f2ec5fa2c4
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Mar 1 17:41:40 2023 -0500
+
+    refactor and remove comments
+
+commit 081c489941b5b5c7cd8349b33847b6b13645c561
+Merge: 1627822 6b570b2
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Mar 1 17:38:36 2023 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit 16278220ade864e098125799275f9508e083ee5a
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Mar 1 17:38:05 2023 -0500
+
+    fix min_long bug in lexer
+
+commit fedabf16f64439c0cd891525878b491ee53d9972
+Merge: 49c83cf 6b570b2
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 1 17:15:42 2023 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 6b570b2d6ae2e31c46e943279a0dfd26914966f3
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Wed Mar 1 17:15:27 2023 -0500
+
+    fixed \\t -> \t problem in string07.eta
+
+commit 49c83cfb74728db45ede30172a8fd506c4a97703
+Merge: 598be8e b7ff0b7
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 1 17:13:42 2023 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 598be8e75317e4b75341974fd19ab488eff1d621
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 1 17:13:21 2023 -0500
+
+    fixed string double slash -> single slash bug
+
+commit b7ff0b7ef79def7a9438a4bf842075e8e4a8abcb
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 1 16:37:58 2023 -0500
+
+    fixed bugs
+
+commit e4bd81819d06731fe723f76eb55baa3792dcd622
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Mar 1 16:27:15 2023 -0500
+
+    fix lex integer bug
+
+commit 0c1edb9755bff43465cdf8dcc728cc2818493228
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Wed Mar 1 15:11:07 2023 -0500
+
+    Delete d.eta
+
+commit 54d220ff3cfd253b0c1094b83377de5e06700f62
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Wed Mar 1 15:10:47 2023 -0500
+
+    added failed pa1 tests
+
+commit 29abbca9d3347966cd2596a9dede9aa15b8d02c7
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Wed Mar 1 15:10:03 2023 -0500
+
+    Create d.eta
+
+commit bfe09804f3cc9370314e0dc6fad0579a0d76307b
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Wed Mar 1 15:09:50 2023 -0500
+
+    Delete pa1_failed directory
+
+commit a2a9bb72d4c866fe66f3cee256141b1a38b1cc5d
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Wed Mar 1 15:09:13 2023 -0500
+
+    add pa1 failed tests
+
+commit 16aea4a4932f73f383c8c8042ef830c6f0aa2a10
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Wed Mar 1 15:07:19 2023 -0500
+
+    Create d.eta
+
+commit 7e615796860126421551dd6333322d43382a477c
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Wed Mar 1 15:06:03 2023 -0500
+
+    Fixed plus in visitValue; added more test cases
+
+commit 4e77a829ecb627f209e2965b3f40efd0365797a4
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Wed Mar 1 13:57:49 2023 -0500
+
+    added eti files
+
+commit 8e3cd2b7b60f8aa0d573840af8b1c8ae77fcc835
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 1 13:49:29 2023 -0500
+
+    updated use valid 3
+
+commit a2f496a2c160870f209de76da5599ad7d9805d51
+Merge: f3b4320 8a3e234
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 1 13:48:05 2023 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit f3b4320d411bedfe2043b8a2593f63b05db52bfe
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 1 13:47:54 2023 -0500
+
+    fixed test file for redefining used function with same signature
+
+commit 8a3e23454701270c7f03fa8862911a6b0c0d6f6f
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 1 13:47:50 2023 -0500
+
+    fixed bugs
+
+commit 784a926c2efe4761dcaa8995adbb347bc7fdb445
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Wed Mar 1 13:05:45 2023 -0500
+
+    Fixed arrayacess type bug in visitValue.
+
+commit 265201b2932f53b2ba4328c3931f24fc2565b48a
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Wed Mar 1 12:59:40 2023 -0500
+
+    Added test for op; fixed bugs in visitValue
+
+commit abae963b295c3f9efaecc588a84e3ac3a35b3e32
+Merge: 7cb7e18 e5a23a9
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 1 12:55:43 2023 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 7cb7e18a146785b3f6a2aee6d04fb36d759ca055
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Mar 1 12:55:37 2023 -0500
+
+    fixed bugs
+
+commit e5a23a966a5ee3fe9482d3a43422a0a55c3b11c6
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 1 12:53:59 2023 -0500
+
+    add direct test case for any equivalence check
+
+commit d3e459e5923c9c975a3c59baf0def6fd68b4aa86
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 1 12:50:58 2023 -0500
+
+    fixed bug in primitive type equal override
+
+commit 84b032f8c2aad04187892244ef58b424ecc97db0
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 1 10:42:44 2023 -0500
+
+    fixed _ identifier issue
+
+commit 524ad78113f15f13406b9e0894d5ebddbaf77c1e
+Merge: 086d0c4 b7f1815
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 1 10:24:33 2023 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:mw756/compilers-sp23
+
+commit 086d0c4d87558fffbfeb5e77e9a0a13d93a2920b
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 1 10:24:22 2023 -0500
+
+    fixed any comparison issue and updated test cases
+
+commit b7f1815c4b356e048c9574dda6d3b53b12db44bc
+Author: Michael <mw756@cornell.edu>
+Date:   Wed Mar 1 10:08:22 2023 -0500
+
+    add make sed to sed etac-build and etac
+
+commit 018ee1c7fc71354543b3aef378550d2eb6b3968c
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Wed Mar 1 08:51:56 2023 -0500
+
+    updated eth_pa3 to reflect new test cases for while
+
+commit c769f13ed7e9047647f25ed0d88172d3f3d51af4
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 1 08:51:06 2023 -0500
+
+    added while test cases that expose bug
+
+commit 0a09d5b6d069382b668a4cb8dca7dfb9b6d776b9
+Author: Chuhan <co232@cornell.edu>
+Date:   Wed Mar 1 08:21:29 2023 -0500
+
+    fixed if guard error message
+
+commit 27b244044470231e7e712e820a7e6a38004b1870
+Author: Chuhan <co232@cornell.edu>
+Date:   Tue Feb 28 23:01:55 2023 -0500
+
+    fix missing deps folder
+
+commit 5e59ad44227574987879d6c52520e9bfde91ca00
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 28 22:13:28 2023 -0500
+
+    fixed bugs
+
+commit 2b5ae2c36edfacfa320240a94fa5fda8ebe8234e
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 28 22:13:15 2023 -0500
+
+    fixed bugs
+
+commit 9f44c2af2e2791282cb8bf047e6ea37fd64581c8
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 22:03:22 2023 -0500
+
+    Fixed issues when Applying funccall to if/while guard
+
+commit bf2e00aa0eeae2641737e44bffc9513d8c801af9
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Feb 28 21:59:39 2023 -0500
+
+    fix if_invalid3.eta error
+
+commit 531e514caefa24d8aeb9b795e37d87a7ee536d88
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 28 21:32:24 2023 -0500
+
+    fixed bugs
+
+commit e03cdcc83c717afc73cf9edbb4cc616439da435a
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 21:15:28 2023 -0500
+
+    Fixed empty array literal
+
+commit a7b8d23ea7e2b364f1395a8ce9eecc1755f1a5cb
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 20:31:48 2023 -0500
+
+    Fixed visitValue
+
+commit 7418443375b57b1591f44c3ebaefadc4d60bc014
+Merge: ce639f5 f8c6808
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 20:29:30 2023 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit ce639f53c71f28fd6df66c7d4ec7f02921ea3918
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 20:29:20 2023 -0500
+
+    Override equals for PrimitiveType
+
+commit f8c6808012416553fbb1b791ee20da7a0e5236da
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 28 20:25:06 2023 -0500
+
+    fixed assignment
+
+commit 49165ad435a2b662eb50fd8ef02f887de52ffd8e
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 20:18:01 2023 -0500
+
+    Added ANY for underscore and empty array literal
+
+commit e1ae5df9041aaab5d595de29470a55402b1fd81d
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 20:00:27 2023 -0500
+
+    recover build.gradle back
+
+commit acfb3a702ac4de7dc923bd9c4a6a937aa2a53971
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 19:58:22 2023 -0500
+
+    Fixed visitUse
+
+commit ede921c828ed6310e77b0f9790794e3813daf5b1
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 28 19:00:18 2023 -0500
+
+    debug
+
+commit c6e18351f112a3e5f4a5e508bc99d087f147ec46
+Merge: 77eeacc 5e95905
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Feb 28 18:23:49 2023 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit 5e95905aaafc8f7c609cf54a65d4d598b5639e80
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 18:23:36 2023 -0500
+
+    Fixed PrimitiveType toString
+
+commit 77eeaccf6c94dc5b10f82a68e70123ab7ed298eb
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Feb 28 18:23:28 2023 -0500
+
+    fix visitFuncCall primitive type error
+
+commit 8b01201887a95e52cf335a5197b043dad1fa0af2
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 18:18:07 2023 -0500
+
+    Added some comments for visitAssignment
+
+commit cf68cdee4d2a364e886110f972fff82d83830206
+Merge: f25fa18 e16e289
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 18:16:44 2023 -0500
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       src/main/java/zc246_zl345_co232_mw756/visitor/TypeChecker.java
+
+commit f25fa188a6568530d46e23080271f5dfe8fad9a8
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 18:11:37 2023 -0500
+
+    Fixed assignment issues (deals with func calls and expressions separately)
+
+commit e16e28984a6476ee57ecf0035b202872d6b5b529
+Merge: 68ee20c 7bb50d7
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Feb 28 17:53:23 2023 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/mw756/compilers-gradle
+
+commit 68ee20c7e627172fde0c5ff5d33c9cf3b350c554
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Feb 28 17:53:06 2023 -0500
+
+    fix spec3.typed error
+
+commit 7bb50d708ed2399f71ddf0cc9322daf667b633a1
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 17:45:13 2023 -0500
+
+    Fixed the string key in hashmap
+
+commit b50fce27ff5953dfd215d896099b9164c87c9a29
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 28 17:23:25 2023 -0500
+
+    debug
+
+commit 6b3037c61f14ec92ea087eec0091a8072bb83a99
+Merge: c54513f 3d657d7
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 28 17:13:52 2023 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit c54513ffb3fa156e2b50e7c743126212533c1bcd
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 28 17:13:46 2023 -0500
+
+    added test cases
+
+commit 3d657d736ecc5e24d0d1faf293c4b80d0f639145
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 17:11:54 2023 -0500
+
+    Fixed accept in VisitValue
+
+commit 80fade68419a1fc220276547ba6ac12a15694689
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 16:59:47 2023 -0500
+
+    Fixed Plus case in visitValue; added printMessage in CLI
+
+commit 5a2c0dd561bc0465a525260a3efcdf3f502cc270
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 28 16:43:34 2023 -0500
+
+    fixed bugs
+
+commit 08d5e15c1e450eb0ad1d5e523e1970f1e2529485
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 28 16:42:35 2023 -0500
+
+    fixed bugs
+
+commit e8e2bd4018a7db840254c3cf2a89d4b3ed85c1de
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Tue Feb 28 16:41:38 2023 -0500
+
+    Fixed visitValue; wrote visitUse
+
+commit 4546d274ab873b556f962b28cdcbfece6cad06ec
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 28 15:41:46 2023 -0500
+
+    fixed bugs
+
+commit 72fb9db247f368f111a150621ed7d7b7d2bfd559
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 28 15:24:37 2023 -0500
+
+    fixed bugs
+
+commit 35dca5518dbde2305f61fb18e07ac037af33e888
+Merge: 8f00921 9c3e23a
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Mon Feb 27 23:41:13 2023 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 8f00921e41d9a5061003d29a020c464fb9482c28
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Mon Feb 27 23:40:59 2023 -0500
+
+    Implemented CLI
+
+commit 9c3e23a29c22e47b8825104faa5805501c9cf1c8
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Mon Feb 27 23:22:55 2023 -0500
+
+    fixed bugs
+
+commit db3b824176567da073dc04d4bf79a50a4d06b4b8
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Feb 27 13:56:29 2023 -0500
+
+    implement return
+
+commit c3e0d1126f9d5e01c603ca7948ca10237c8f4661
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Feb 27 13:23:39 2023 -0500
+
+    implement visitArrayLiteral
+
+commit 228b1d90c9b5205c620d7c1b7878b3033e516167
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Feb 27 12:46:29 2023 -0500
+
+    implement identifier
+
+commit 25d6a7362547791c0728e036882b817e399c2c0f
+Author: Michael <mw756@cornell.edu>
+Date:   Mon Feb 27 12:28:56 2023 -0500
+
+    implement visitFuncCall and visitProcedureCall
+
+commit dd61f9f4bb10a22da231c2dc86894772172b640c
+Author: Chuhan <co232@cornell.edu>
+Date:   Sun Feb 26 23:15:51 2023 -0500
+
+    implemented visitDecl
+
+commit 8af3fef26b566dc52a7d698dd96764059248225c
+Author: Chuhan <co232@cornell.edu>
+Date:   Sun Feb 26 22:58:46 2023 -0500
+
+    implemented checkAssignment
+
+commit 7cd90f5925f97ffd406cb34299399e1b0591c762
+Author: Chuhan <co232@cornell.edu>
+Date:   Sun Feb 26 22:50:55 2023 -0500
+
+    implemented visitWhile
+
+commit 9a0c4ad1023fefe10877cda09fadb9b4c3e705de
+Author: Chuhan <co232@cornell.edu>
+Date:   Sun Feb 26 22:47:13 2023 -0500
+
+    implemented visitIf
+
+commit 46cfc04fee5121febd18d4d521310dce0b8b3d62
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Sun Feb 26 16:29:39 2023 -0500
+
+    Add files via upload
+    
+    added pa3 staff test eta and typedsol files
+
+commit 36d87685e46ac58907f40c93ba07dc035e336ffb
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Sat Feb 25 14:08:32 2023 -0500
+
+    fixed bugs
+
+commit 678b9dbdb57e0bf0f6af7187ddd4ee115b3d7016
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Feb 24 22:38:50 2023 -0500
+
+    fixed pa2 bugs
+
+commit d619fb73108b5f0f654af1c1e9408610550c091b
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Fri Feb 24 17:22:32 2023 -0500
+
+    Changed value's children to expr
+
+commit f23a528c33547ed330efd8ebdfaafbbe360d2d56
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Fri Feb 24 15:33:20 2023 -0500
+
+    Changed back value
+
+commit a14b6f8ba67b7bccf97a1064585e6f681df88094
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Fri Feb 24 15:26:43 2023 -0500
+
+    Implemented visitbool, int, str, value
+
+commit ac1014d5105d1f190b5d8b83b22cff2f0a21fcee
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Fri Feb 24 13:51:31 2023 -0500
+
+    Added parsedsol
+
+commit ab3498cb9b875c143f54f328c87e776985138066
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Fri Feb 24 13:51:00 2023 -0500
+
+    Added use03.eta
+
+commit be105ee2e3cde5e17c31b4052523704266a9ffc5
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Fri Feb 24 13:22:03 2023 -0500
+
+    Added some failed tests
+
+commit 17f737bb8b783505258cdc4696a2c17760a6890c
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Feb 24 13:11:17 2023 -0500
+
+    pa2 failed tests
+
+commit 08052e38040b5e19ca5dfda19af74288ec55a039
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Fri Feb 24 13:10:40 2023 -0500
+
+    pa2 failed tests
+
+commit d315455ba276c2600380e406e92e0e2da0e16cce
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Feb 23 16:51:33 2023 -0500
+
+    added top level context
+
+commit 7a7bfdf17007fd02001a0b28a5c5dd43e822df38
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Feb 23 15:13:37 2023 -0500
+
+    added errors
+
+commit 5b51c4a7a01738c3e622645003aebb181c98eed4
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Feb 22 20:00:11 2023 -0500
+
+    added line/col number
+
+commit 4072f0b755c67780d9b7b48b804593529a5ac81c
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Feb 22 01:05:34 2023 -0500
+
+    added check return
+
+commit a69e6c84be9104b8fdcda7e88cd0129a86102c0d
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Wed Feb 22 00:25:59 2023 -0500
+
+    added return type
+
+commit 2fbf196191e0b73e98ea2977377910b1282118e3
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 21 20:23:50 2023 -0500
+
+    updated makefile
+
+commit e74d1f36bcf4ff122085b614ea9a719b11173e36
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 21 18:06:36 2023 -0500
+
+    splitted work
+
+commit 718b1028971dbc258b08f1b6c55da7f58d0da476
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 21 17:55:01 2023 -0500
+
+    refactored code
+
+commit 16b352d1f83f24a520457fa24cea657d32a03fd3
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 21 17:36:58 2023 -0500
+
+    added visitor
+
+commit 6376cf4dbaac213342ea6f9f29b4b99ceb132601
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 21 17:35:39 2023 -0500
+
+    added visitor
+
+commit b987e29c5f1d4d96d00038ed7cd84f821225dcf5
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 21 17:26:48 2023 -0500
+
+    added context
+
+commit 7b87cb8a08e62bbf69f0ff0096cc8465be4d480d
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 21 16:14:15 2023 -0500
+
+    added context
+
+commit d5692adaf16f27ba9e86aa058ca5722866cc01d7
+Merge: 40c7b00 e130a36
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 21 16:08:20 2023 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 40c7b00c7116accefd1008851562172c33d838e6
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Tue Feb 21 16:08:12 2023 -0500
+
+    added context
+
+commit e130a36eb51bdf92174e74f4d51f0cb2f5ff226b
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Feb 21 15:47:26 2023 -0500
+
+    remove extra files
+
+commit e8f59a74dbb42e3d41fece5fc0347d030a55de4c
+Author: Michael <mw756@cornell.edu>
+Date:   Tue Feb 21 15:43:56 2023 -0500
+
+    refactor
+
+commit 7434e7000c3493ad2068dde15cd521220c146900
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Feb 16 23:27:43 2023 -0500
+
+    fixed bug
+
+commit 0afbedb22d2b8399cb499bda7511c05521f49fff
+Merge: a3827b4 70a4dc6
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Feb 16 22:59:13 2023 -0500
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       src/main/java/zc246_zl345_co232_mw756/lex/YyFlex.java
+
+commit 70a4dc6578fc60f1262b1cb4f4fdfd328b5a229d
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Feb 16 21:10:55 2023 -0500
+
+    edit global ast printer node
+
+commit a3827b42dad061701ba18889170c78cff8d08a04
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Feb 16 20:25:10 2023 -0500
+
+    fixed bug
+
+commit eb0858ef65675f7ab0bd7d15e270c4117544a14c
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Feb 16 19:33:56 2023 -0500
+
+    complete pa2
+
+commit b1250078c11627c3404197a82d786bb00f216042
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Feb 16 19:18:51 2023 -0500
+
+    Update eth_pa2
+
+commit 4ed4e93d7a0a6398d91e37622d28034ecf7c45a5
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Feb 16 19:15:22 2023 -0500
+
+    Add files via upload
+
+commit 950cd79afda746ead665583422553b81164ee496
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Feb 16 19:09:42 2023 -0500
+
+    Add files via upload
+
+commit 459a46b490cdcf0a44408461b356e37b09a0915d
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Feb 16 19:09:16 2023 -0500
+
+    Add files via upload
+
+commit afebf25d26264d7652ea09d48fcb2d502b13a3e9
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Feb 16 19:08:04 2023 -0500
+
+    Delete d.eta
+
+commit c1226326af9c3267d98d7665246d1e27e93e53f6
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Feb 16 19:07:52 2023 -0500
+
+    Add files via upload
+
+commit 4e259f13cd4fa0462ff5ff185311b07db242b23f
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Feb 16 19:07:14 2023 -0500
+
+    Create d.eta
+
+commit 3e1438ceb3e32b324c99fe95b3911a07634c5ee4
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Feb 16 19:07:04 2023 -0500
+
+    Delete test directory
+
+commit 98015892a0321e173d92bfba648fff406bf45d9a
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Feb 16 18:27:00 2023 -0500
+
+    Fixed some problems in Assignment
+
+commit 32889c5f16e50eec919ecd7b18c685536c8636b7
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Feb 16 17:57:50 2023 -0500
+
+    fixed bug
+
+commit 07cf7ca70de0844b97cfb2e314feaeab3c4489b4
+Merge: 1911290 eaec2f7
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Feb 16 17:40:49 2023 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 1911290895455c4774cfcfddcfb4bce5b3b4056a
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Feb 16 17:40:35 2023 -0500
+
+    Eth file
+
+commit eaec2f77e0d4d3c9f95a89ff5906407e9f664b4c
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Feb 16 17:38:33 2023 -0500
+
+    clean up gradle
+
+commit 481ec23aa8a9e3ff936ee1ee08fe3a01236e3dce
+Merge: 145f692 dae4d51
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Feb 16 17:34:05 2023 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 145f6920707b32556a00859806cffea2e0a007b0
+Author: Santiago Lai <zl345@cornell.edu>
+Date:   Thu Feb 16 17:31:39 2023 -0500
+
+    Eth
+
+commit dae4d51638371c960a62ca67c1c4939debe30ba6
+Merge: 128cded 4376234
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Feb 16 17:30:24 2023 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 128cdedf36ea946f32cf1d602598c60c2c6b49c6
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Feb 16 17:30:17 2023 -0500
+
+    clean up gradle
+
+commit 43762349208501188bf8b5d0c0db09dcacbb18f5
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Feb 16 17:27:16 2023 -0500
+
+    Delete d.eta
+
+commit c64884dfd4c01a6f1547bd04e3a4d57eb5f127e2
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Feb 16 17:19:53 2023 -0500
+
+    Add files via upload
+
+commit 0b03631caa50d6d471b23e8009a9d247d9565a41
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Feb 16 17:11:58 2023 -0500
+
+    Create README.md
+
+commit a2880df6d00ff85628ed445a8dbcc7ec98d949db
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Feb 16 17:09:57 2023 -0500
+
+    Add files via upload
+
+commit 1ee02a4a7247520db85209539b87f1cf71b55e62
+Merge: 73d0bb5 6075aff
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Feb 16 17:08:12 2023 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 73d0bb5085609bca298855b409d2c4f0c0877ecf
+Author: Thomas Cui <zc246@cornell.edu>
+Date:   Thu Feb 16 17:08:05 2023 -0500
+
+    clean up gradle
+
+commit 6075aff7eae533c9a26e825f2c36ef1a69b1ca10
+Author: Chuhan Ouyang <11938+co232@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Feb 16 17:06:54 2023 -0500
+
+    Create d.eta
+
+commit d1f040e29056e62589a799d9520e2cabc8116e50
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Feb 16 17:01:44 2023 -0500
+
+    working build
+
+commit 9f09d7bfb3cb8ee5f7eb812a56915358bffc79eb
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Feb 16 16:52:15 2023 -0500
+
+    Revert "add build files"
+    
+    This reverts commit c3c0c31790db1788cc02b71decaa4bd68eb9200d.
+
+commit c3c0c31790db1788cc02b71decaa4bd68eb9200d
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Feb 16 14:21:14 2023 -0500
+
+    add build files
+
+commit 2c13d96e977021f72e44acedc952827a90e5f52c
+Author: Michael <mw756@cornell.edu>
+Date:   Thu Feb 16 13:58:31 2023 -0500
+
+    init

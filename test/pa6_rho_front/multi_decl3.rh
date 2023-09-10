@@ -1,0 +1,6 @@
+use multi_intf
+
+main(args: int[][]){
+    p1: Point
+    p1, p2: Point = Point(1,2), Point(3,4)
+}

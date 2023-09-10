@@ -1,0 +1,33 @@
+use io
+use conv
+
+y:int = 0
+
+f1(x:int):int{
+    i:int = 0;
+    while(i<3){
+        println(unparseInt(g(x)) + {x, 2 * ' ' + i, i+'u'});
+        i = i+1;
+    }
+    return x+1;
+}
+
+f2(str:int[]){
+    n:int = length(str);
+    i:int = 0;
+    while(i<n){
+        str[i] = f1(str[i]);
+        i = i+1;
+    }
+    println(str);
+}
+
+g(x:int):int{
+    println("g"+unparseInt(y))
+    y=y+1
+    return y;
+}
+
+main(args: int[][]){
+    f2("hello world")
+}

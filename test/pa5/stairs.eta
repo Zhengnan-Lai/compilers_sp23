@@ -1,0 +1,15 @@
+use io
+use conv
+
+main(args: int[][]){
+    n: int = 40
+    f: int[n+1]
+    i: int = 3
+    f[1] = 1
+    f[2] = 2
+    while(i <= n){
+        f[i] = f[i-1] + f[i-2]     
+        i = i + 1   
+    }
+    print(unparseInt(f[n]))
+}

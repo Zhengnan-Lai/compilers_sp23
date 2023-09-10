@@ -1,0 +1,26 @@
+use monkeys
+
+record monkey{
+    animalParent: animal
+    mammalParent: mammal
+    monkeyType: int[]
+}
+
+record mammal{
+    parent: animal
+    isMonkey: bool
+    isCuteMonkey: bool
+}
+
+record animal{
+    age: int
+    isMammal: bool
+    isCuteMammal: bool
+    hasParent: bool
+}
+
+main(args: int[][]){
+    a: animal = animal(10, true, false, false)
+    ma: mammal = mammal(a, true, false)
+    mo: monkey = monkey(a, ma, "golden")
+}

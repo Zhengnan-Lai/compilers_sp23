@@ -1,0 +1,44 @@
+// having 2 arguments and use both
+// returning 2 arguments and read the results
+use io
+use conv
+
+main(args: int[][]){
+    a: int[] = "I love compiler"
+    b: int[] = "Are you serious"
+    c: int[] = "Yes I am serious"
+    d: int[] = "it is a fun class"
+    e: int[] = "hello compiler"
+    f: int[] = "please vote for compiler"
+    g: int[] = "take advanced compiler"
+    h: int[] = "maybe!"
+    res1: int, res2: int, res3: int, res4: int, res5: int, res6: int, res7: int, res8: int = deviation_8(a, b, c, d, e, f, g, h)
+    println(unparseInt(res1))
+    println(unparseInt(res2))
+    println(unparseInt(res3))
+    println(unparseInt(res4))
+    println(unparseInt(res5))
+    println(unparseInt(res6))
+    println(unparseInt(res7))
+    println(unparseInt(res8))
+}
+
+deviation_8(arg1: int[], arg2: int[], arg3: int[], arg4: int[], arg5: int[], arg6: int[], arg7: int[], arg8: int[]): int, int, int, int, int, int, int, int{
+    sum: int = 0
+    mean: int = 0
+
+    sum = sum + arg1[0]
+    sum = sum + arg2[5]
+    sum = sum + arg3[6]
+    sum = sum + arg4[2]
+    sum = sum + arg5[3]
+    sum = sum + arg6[2]
+    sum = sum + arg7[0]
+    sum = sum + arg8[4]
+
+    mean = sum / 8
+
+    return arg1[0] - mean, arg2[5] - mean, arg3[6] - mean, arg4[2] - mean, arg5[3] - mean, arg6[2] - mean, arg7[0] - mean, arg8[4] - mean
+}
+
+

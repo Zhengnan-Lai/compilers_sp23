@@ -1,0 +1,7 @@
+use mammals
+
+record monkey{
+    animalParent: animal
+    mammalParent: mammal
+    monkeyType: int[]
+}

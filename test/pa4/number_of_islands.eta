@@ -1,0 +1,60 @@
+use io
+use conv
+
+grid:int[][]
+di:int[]
+dj:int[]
+
+main(args:int[][]) {
+    grid =   {{1,1,1,1,0}, {1,1,0,1,0}, {1,1,0,0,0}, {0,0,0,0,0}}
+    di = {0, 0, 1, -1}
+    dj = {1, -1, 0, 0}
+    
+    println(unparseInt(numIslands()))
+    
+    grid = {{1,1,0,0,0}, {1,1,0,0,0}, {0,0,1,0,0}, {0,0,0,1,1}}
+    println(unparseInt(numIslands()))
+}
+
+numIslands():int {
+    m:int = 4
+    n:int = 4
+    res:int = 0
+
+    i:int = 0
+    j:int = 0
+    while(i < m) {
+        j = 0
+        while(j < n) {
+            if (grid[i][j] == 1) {
+                dfs(i, j)
+                res = res + 1
+            }
+            j = j + 1
+        }
+        i = i + 1
+
+    }
+
+    return res
+}
+
+dfs(i:int, j:int) {
+    grid[i][j] = 2
+    k:int = 0
+    m:int = 4
+    n:int = 4
+
+    ii:int = 0
+    jj:int = 0
+
+    while(k < 4) {
+        grid[i][j] = 2
+        ii = i + di[k]
+        jj = j + dj[k]
+        if ((0 <= ii) & (ii <  m) & (0 <= jj) & (jj < n) & (grid[ii][jj] == 1)) {
+            dfs(ii, jj)
+        }
+        k = k + 1
+    }
+}

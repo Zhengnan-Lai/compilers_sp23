@@ -1,0 +1,60 @@
+// eth -testpath test/pa4_failed ethScript/eth_pa4_failed
+
+build
+
+etac ("Test --help") "--help" {
+}
+
+etac ("Test --lex") "--lex" {
+}
+
+etac ("Test --parse") "--parse" {
+}
+
+etac ("Test --typecheck") "-libpath test/lib --typecheck" {
+}
+
+etac ("Test --irgen") "-libpath test/lib --irgen" {
+	arracc07.eta;
+	assign06.eta;
+	assign07.eta;
+	assign08.eta;
+	localdecl13.eta;
+	localdecl14.eta;
+	medley01.eta;
+}
+
+etac ("Test -O --irgen") "-libpath test/lib --irgen -O" {
+	arracc07.eta;
+	assign06.eta;
+	assign07.eta;
+	assign08.eta;
+	localdecl13.eta;
+	localdecl14.eta;
+	medley01.eta;
+}
+
+etac ("Test -target linux") "-libpath test/lib -target linux" {
+}
+
+etac ("Test -O -target linux") "-libpath test/lib -target linux -O" {
+}
+
+etac ("Test -Oreg -target linux") "-libpath test/lib -target linux -Oreg" {
+}
+
+etac ("Test -Ocf -target linux") "-libpath test/lib -target linux -Ocf" {
+}
+
+etac ("Test -Odce -target linux") "-libpath test/lib -target linux -Odce" {
+}
+
+etac ("Test -Ocp -target linux") "-libpath test/lib -target linux -Ocp" {
+}
+
+etac ("Test -Ocopy -target linux") "-libpath test/lib -target linux -Ocopy" {
+}
+
+etac ("Test -Ovn -target linux") "-libpath test/lib -target linux -Ovn" {
+}
+

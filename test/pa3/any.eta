@@ -1,0 +1,9 @@
+main(){
+    a:int[][][] = {} // valid because {} can expand to multiple dimensions
+    b:int[][][] = {{}} // valid because {{}} can expand to multiple dimensions
+    c:bool[][][] = {{}}; // valid
+    d:bool[][][] = {}; // valid
+    e:bool[][][] = {{{}}}; // valid
+    f:int = {}; // invalid because {} has dimension 1 whereas int is dimension 0
+    _, i : int = 1,1
+}

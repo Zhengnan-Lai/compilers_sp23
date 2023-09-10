@@ -1,0 +1,13 @@
+use io
+use conv
+
+main(args: int[][]){
+    nums: int[] = {9, 6, 4, 2, 3, 5, 7, 0, 1}
+    ans: int = (length(nums)+1) * length(nums) / 2
+    i: int = 0
+    while(i < length(nums)){
+        ans = ans - nums[i]
+        i = i + 1
+    }
+    print(unparseInt(ans))
+}

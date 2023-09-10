@@ -1,0 +1,11 @@
+use io
+use conv
+
+main(args: int[][]){
+    x:int = -5
+    if (x > 0) {
+        println(unparseInt(x))
+    } else {
+        println("x is negative")
+    }
+}

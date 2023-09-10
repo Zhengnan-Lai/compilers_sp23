@@ -1,0 +1,18 @@
+use io
+use conv
+
+x:int[][]
+
+main(args:int[][]){
+    x = {"hello", "world"}
+    swap()
+    x = {"你好", "世界"}
+    swap()
+}
+
+swap(){
+    x[0], x[1] = x[1], x[0]
+    x[0][0], x[1][0] = x[1][0], x[0][0]
+    println(x[0])
+    println(x[1])
+}

@@ -1,0 +1,13 @@
+use io
+use conv
+
+main(args: int[][]){
+    a: int, b: int = f()
+    print(unparseInt(a))
+    print(unparseInt(b))
+}
+
+f(): int, int{
+    return 1, 2
+}
+

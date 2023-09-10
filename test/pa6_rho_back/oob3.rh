@@ -1,0 +1,8 @@
+main(args:int[][]){
+    k:int = g()[0]
+    f:int = g()[10]
+}
+
+g():int[]{
+    return {1,2,3,4,5,6}
+}

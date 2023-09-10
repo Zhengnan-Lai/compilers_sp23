@@ -1,0 +1,69 @@
+// eth -testpath test/pa2_failed ethScript/eth_pa2_failed
+
+build
+
+etac ("Test --help") "--help" {
+}
+
+etac ("Test --lex") "--lex" {
+}
+
+etac ("Test --parse") "--parse" {
+	assign01.eta;
+	assign02.eta;
+	assign03.eta;
+	assign04.eta;
+	block01.eta;
+	block02.eta;
+	codedecl01.eta;
+	codedecl02.eta;
+	codedecl03.eta;
+	empty.eta;
+	ex1_eta_as_eti.eti;
+	expr06.eta;
+	globalarrinit.eta;
+	globalarrinit1.eta;
+	globalarrinit2.eta;
+	length01.eta;
+	length03.eta;
+	paramdecl01.eta;
+	use01.eta;
+	use02.eta;
+	use03.eta;
+	x01.eti;
+	x05.eti;
+}
+
+etac ("Test --typecheck") "-libpath test/lib --typecheck" {
+}
+
+etac ("Test --irgen") "-libpath test/lib --irgen" {
+}
+
+etac ("Test -O --irgen") "-libpath test/lib --irgen -O" {
+}
+
+etac ("Test -target linux") "-libpath test/lib -target linux" {
+}
+
+etac ("Test -O -target linux") "-libpath test/lib -target linux -O" {
+}
+
+etac ("Test -Oreg -target linux") "-libpath test/lib -target linux -Oreg" {
+}
+
+etac ("Test -Ocf -target linux") "-libpath test/lib -target linux -Ocf" {
+}
+
+etac ("Test -Odce -target linux") "-libpath test/lib -target linux -Odce" {
+}
+
+etac ("Test -Ocp -target linux") "-libpath test/lib -target linux -Ocp" {
+}
+
+etac ("Test -Ocopy -target linux") "-libpath test/lib -target linux -Ocopy" {
+}
+
+etac ("Test -Ovn -target linux") "-libpath test/lib -target linux -Ovn" {
+}
+

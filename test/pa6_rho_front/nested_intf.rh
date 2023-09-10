@@ -1,0 +1,11 @@
+use nested_intf
+
+record Square{
+    p: Point
+    a: int
+}
+
+main(){
+    p:Point = Point(3,4)
+    s:Square = Square(p,5)
+}

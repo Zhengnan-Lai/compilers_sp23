@@ -1,0 +1,20 @@
+main(args:int[][]){x:int=0;while(x<20000000){a:int,
+    b:int,c:int,d:int,e:int,f:int,g:int,h:int,i:int,j:int,k:int,l:int,m:int,
+    n:int,o:int,p:int,q:int,r:int,s:int=x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+    a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s=b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a
+    b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a=c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a,b
+    c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a,b=d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a,b,c
+    d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a,b,c=e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a,b,c,d
+    e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a,b,c,d=f,g,h,i,j,k,l,m,n,o,p,q,r,s,a,b,c,d,e
+    f,g,h,i,j,k,l,m,n,o,p,q,r,s,a,b,c,d,e=g,h,i,j,k,l,m,n,o,p,q,r,s,a,b,c,d,e,f
+    g,h,i,j,k,l,m,n,o,p,q,r,s,a,b,c,d,e,f=h,i,j,k,l,m,n,o,p,q,r,s,a,b,c,d,e,f,g
+    h,i,j,k,l,m,n,o,p,q,r,s,a,b,c,d,e,f,g=i,j,k,l,m,n,o,p,q,r,s,a,b,c,d,e,f,g,h
+    i,j,k,l,m,n,o,p,q,r,s,a,b,c,d,e,f,g,h=j,k,l,m,n,o,p,q,r,s,a,b,c,d,e,f,g,h,i
+    j,k,l,m,n,o,p,q,r,s,a,b,c,d,e,f,g,h,i=k,l,m,n,o,p,q,r,s,a,b,c,d,e,f,g,h,i,j
+    k,l,m,n,o,p,q,r,s,a,b,c,d,e,f,g,h,i,j=l,m,n,o,p,q,r,s,a,b,c,d,e,f,g,h,i,j,k
+    l,m,n,o,p,q,r,s,a,b,c,d,e,f,g,h,i,j,k=m,n,o,p,q,r,s,a,b,c,d,e,f,g,h,i,j,k,l
+    m,n,o,p,q,r,s,a,b,c,d,e,f,g,h,i,j,k,l=n,o,p,q,r,s,a,b,c,d,e,f,g,h,i,j,k,l,m
+    n,o,p,q,r,s,a,b,c,d,e,f,g,h,i,j,k,l,m=o,p,q,r,s,a,b,c,d,e,f,g,h,i,j,k,l,m,n
+    o,p,q,r,s,a,b,c,d,e,f,g,h,i,j,k,l,m,n=p,q,r,s,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o
+    p,q,r,s,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o=q,r,s,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p
+    a=a*b*c*d*e*f*g*h*i*j*k*l*m*n*o*p*q*r*s*0+x;x=a+1 }}

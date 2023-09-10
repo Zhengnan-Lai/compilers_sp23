@@ -1,0 +1,6 @@
+use u1 //functions with same id but different types
+use u2
+
+f(){
+
+}

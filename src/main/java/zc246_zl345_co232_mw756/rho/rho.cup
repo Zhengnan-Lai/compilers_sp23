@@ -1,0 +1,325 @@
+package zc246_zl345_co232_mw756.rho;
+
+import zc246_zl345_co232_mw756.ast.*;
+import zc246_zl345_co232_mw756.ast.Record;
+import zc246_zl345_co232_mw756.errors.SyntaxError;
+import java.util.List;
+import java.util.ArrayList;
+import java_cup.runtime.Symbol;
+
+parser code {:
+    public void unrecovered_syntax_error(Symbol s) {
+        throw new SyntaxError(s.left, s.right, "Unexpected token " + s.value.toString() + ".");
+    }
+
+    public void syntax_error(Symbol s) {}
+:};
+
+nonterminal Program st;
+nonterminal Program prog;
+terminal    String IDENTIFIER;
+terminal    Long[] STRING_LITERAL;
+terminal    Long CHARACTER_LITERAL;
+terminal    Long INTEGER_LITERAL;
+terminal    Long TRUE, FALSE;
+terminal    String MIN_LONG;
+nonterminal Use use;
+nonterminal List<Use> use1;
+nonterminal List<Definition> def;
+nonterminal List<Definition> def1;
+nonterminal Function method;
+nonterminal List<Global> global, global_multi;
+nonterminal Type array_type1, array_type2, array_type3, primitive_type, no_dec_type;
+nonterminal Expr value, array_assign, global_val;
+nonterminal ProcedureCall proc_call;
+nonterminal FuncCall func_call;
+nonterminal List<Declaration> param, param_dec1, dec;
+nonterminal Declaration param_dec;
+nonterminal List<Type> no_dec_type1;
+nonterminal Block block;
+nonterminal List<Statement> statement1, statement2, statement;
+nonterminal Statement assignment, return;
+nonterminal List<Expr> values;
+nonterminal List<Node> assiargs;
+nonterminal Bool boolean;
+nonterminal ArrayLiteral array_literal;
+
+terminal INT, BOOL, IF, ELSE, WHILE, RETURN, USE, PLUS, MINUS, TIMES, HIGHMUL, DIVIDE, MODULO, NOT_LOG, LT, LEQ, GT,
+         GEQ, AND, OR, EQUAL, NOT_EQUAL, ASSIGN, LBRACKET, RBRACKET, LPAREN, RPAREN, LBRACE, RBRACE, COLON, COMMA,
+         SEMICOLON, UNDERSCORE, LENGTH, NEG;
+
+terminal NULL, RECORD, DOT, BREAK;
+nonterminal Record record_def;
+nonterminal List<Declaration> no_init_dec1, no_init_dec;
+nonterminal Declaration init_dec;
+nonterminal FieldAccess field_access;
+nonterminal Expr assignable;
+
+precedence left RBRACKET, RPAREN;
+precedence nonassoc SEMICOLON;
+precedence nonassoc IF, WHILE;
+precedence nonassoc ELSE;
+precedence right ASSIGN;
+precedence right COMMA;
+precedence left OR;
+precedence left AND;
+precedence left EQUAL, NOT_EQUAL;
+precedence left LT, LEQ, GT, GEQ;
+precedence left PLUS,MINUS;
+precedence left TIMES, DIVIDE, HIGHMUL, MODULO;
+precedence left NOT_LOG, NEG;
+//precedence left DOT;
+precedence right LBRACKET, LPAREN;
+
+start with st;
+
+st ::= prog:e1                       {: RESULT = e1; :}
+            ;
+prog ::= use1:e1 def1:e2             {: RESULT = new Program(e1, e2); :}
+            | def1: e2               {: RESULT = new Program(new ArrayList<>(), e2); :}
+            ;
+use1 ::= use1:e2 use:e1              {: e2.add(e1); RESULT = e2; :}
+            | use:e1                 {: ArrayList<Use> uses = new ArrayList<>(); uses.add(e1); RESULT=uses; :}
+            ;
+use ::= USE IDENTIFIER:e1                   {: RESULT = new Use(new Identifier(e1left, e1right, e1)); :}
+            | USE IDENTIFIER:e1 SEMICOLON   {: RESULT = new Use(new Identifier(e1left, e1right, e1)); :}
+            ;
+def1 ::= def1:e2 def:e1              {: e2.addAll(e1); RESULT = e2;:}
+            | def:e1                 {: RESULT = new ArrayList<>(e1); :}
+            | LBRACKET def1:e1 RBRACKET
+            {: RESULT = e1; :}
+            | LPAREN def1:e1 RPAREN
+            {: RESULT = e1; :}
+            ;
+
+def ::= method:e1                                 {: RESULT = new ArrayList<>(List.of(e1)); :}
+            | global:e1                           {: RESULT = new ArrayList<>(e1); :}
+            | record_def:e1                       {: RESULT = new ArrayList<>(List.of(e1)); :}
+            | method:e1 SEMICOLON                 {: RESULT = new ArrayList<>(List.of(e1)); :}
+            | global:e1 SEMICOLON                 {: RESULT = new ArrayList<>(e1); :}
+            | record_def:e1 SEMICOLON             {: RESULT = new ArrayList<>(List.of(e1)); :}
+            ;
+record_def ::= RECORD IDENTIFIER:e1 LBRACE no_init_dec1:e2 RBRACE
+            {: RESULT = new Record(new Identifier(e1left, e1right, e1), e2); :}
+            | RECORD IDENTIFIER:e1 LBRACE RBRACE
+            {: RESULT = new Record(new Identifier(e1left, e1right, e1), new ArrayList<>()); :}
+            ;
+global_val ::= CHARACTER_LITERAL:e                  {: RESULT = new Char(eleft, eright, e); :}
+            | INTEGER_LITERAL:e                     {: RESULT = new Int(eleft, eright, e); :}
+            | MINUS INTEGER_LITERAL:e               {: RESULT = new Int(eleft, eright, -e); :}
+            | boolean:e                             {: RESULT = e; :}
+            | MINUS CHARACTER_LITERAL:e             {: RESULT = new Value(Value.Op.MINUS, new Char(eleft, eright, e)); :}
+            | MINUS MIN_LONG:e                      {: RESULT = new Int(eleft, eright, Long.MIN_VALUE); :}
+            | LPAREN global_val:e1 RPAREN           {: RESULT = e1; :}
+            ;
+global_multi ::= IDENTIFIER:e1 COLON no_dec_type:e2
+            {: RESULT=new ArrayList<>(List.of(new Global(new Identifier(e1left, e1right, e1), e2, null))); :}
+            | IDENTIFIER:e1 COMMA global_multi:e2
+            {: e2.add(e2.get(0).another(new Identifier(e1left, e1right, e1))); RESULT=e2; :}
+            ;
+global ::= global_multi:e1
+            {: RESULT=e1; :}
+            | IDENTIFIER:e1 COLON primitive_type:e2 ASSIGN global_val:e3
+            {: RESULT = new ArrayList<>(List.of(new Global(new Identifier(e1left, e1right, e1), e2, e3))); :}
+            ;
+method ::= IDENTIFIER:e1 param:e2 COLON no_dec_type1:e3 block:e4
+            {: RESULT = new Function(new Identifier(e1left, e1right, e1), e2, e3, e4); :}
+            | IDENTIFIER:e1 param:e2 block:e4
+            {: RESULT = new Function(new Identifier(e1left, e1right, e1), e2, new ArrayList<>(), e4); :}
+            | IDENTIFIER:e1 param:e2 COLON no_dec_type1:e3
+            {: RESULT = new Function(new Identifier(e1left, e1right, e1), e2, e3, null); :}
+            | IDENTIFIER:e1 param:e2
+            {: RESULT = new Function(new Identifier(e1left, e1right, e1), e2, new ArrayList<>(), null); :}
+            ;
+
+param ::= LPAREN RPAREN                                     {: RESULT = new ArrayList<>(); :}
+            | LPAREN param_dec1:e1 RPAREN                         {: RESULT = e1; :}
+            ;
+param_dec1 ::= param_dec1:e1 COMMA param_dec:e2                  {: e1.add(e2); RESULT = e1; :}
+            | param_dec:e1
+            {: ArrayList<Declaration> decs = new ArrayList<>(); decs.add(e1); RESULT=decs; :}
+            ;
+param_dec ::= IDENTIFIER:e1 COLON no_dec_type:e2
+            {: RESULT = new Declaration(new Identifier(e1left, e1right, e1), e2); :}
+            ;
+
+dec ::= no_init_dec:e1 {: RESULT=e1; :}
+            | init_dec:e1 {: ArrayList<Declaration> decs = new ArrayList<>(); decs.add(e1); RESULT=decs; :};
+no_init_dec ::= param_dec:e1
+            {: ArrayList<Declaration> decs = new ArrayList<>(); decs.add(e1); RESULT=decs; :}
+            | IDENTIFIER:e1 COMMA no_init_dec:e2
+            {: e2.add(0, e2.get(0).another(new Identifier(e1left, e1right, e1))); RESULT=e2; :}
+            ;
+init_dec ::= IDENTIFIER:e1 COLON array_type2:e2
+            {: RESULT = new Declaration(new Identifier(e1left, e1right, e1), e2); :}
+        | IDENTIFIER:e1 COLON array_type3:e2
+            {: RESULT = new Declaration(new Identifier(e1left, e1right, e1), e2); :}
+        ;
+no_init_dec1 ::= no_init_dec1:e1 no_init_dec:e2
+            {: e1.addAll(e2); RESULT = e1; :}
+            | no_init_dec1:e1 no_init_dec:e2 SEMICOLON
+            {: e1.addAll(e2); RESULT = e1; :}
+            | no_init_dec:e1 SEMICOLON
+            {: RESULT=e1; :}
+            | no_init_dec:e1
+            {: RESULT=e1; :}
+            ;
+
+array_type1 ::= primitive_type:e1 LBRACKET RBRACKET
+            {: Type t = new Type(-1, -1, "_array", null); e1.setNext(t); RESULT = e1; :}
+            | array_type1:e1 LBRACKET RBRACKET
+            {: Type t = new Type(-1, -1, "_array", null); e1.setNext(t); RESULT = e1; :}
+            ;
+array_type2 ::= array_type2:e1 LBRACKET value:e2 RBRACKET
+            {: Type t = new Type(-1, -1, "_array", e2); e1.setNext(t); RESULT = e1; :}
+            | primitive_type:e1 LBRACKET value:e2 RBRACKET
+            {: Type t = new Type(-1, -1, "_array", e2); e1.setNext(t); RESULT = e1; :}
+            ;
+array_type3 ::= array_type2:e1 LBRACKET RBRACKET
+            {: Type t = new Type(-1, -1, "_array", null); e1.setNext(t); RESULT = e1; :}
+            | array_type3:e1 LBRACKET RBRACKET
+            {: Type t = new Type(-1, -1, "_array", null); e1.setNext(t); RESULT = e1; :}
+            ;
+primitive_type ::= INT:e1                     {: RESULT = Type.INT(e1left, e1right); :}
+            | BOOL:e1                         {: RESULT = Type.BOOL(e1left, e1right); :}
+            | IDENTIFIER:e1                   {: RESULT = new Type(e1left, e1right, e1, null); :}
+            ;
+no_dec_type1 ::= no_dec_type1:e2 COMMA no_dec_type:e1        {: e2.add(e1); RESULT = e2; :}
+            | no_dec_type:e1
+            {: ArrayList<Type> types = new ArrayList<>(); types.add(e1); RESULT=types; :}
+            ;
+no_dec_type ::= primitive_type:e1                           {: RESULT = e1; :}
+            | array_type1:e1                                {: RESULT = e1; :}
+            ;
+
+block ::= LBRACE:l statement1:e1 return:e2 RBRACE
+            {: ArrayList<Statement> block = new ArrayList<>(e1); block.add(e2); RESULT=new Block(lleft, lright, block); :}
+            | LBRACE:l return:e1 RBRACE
+            {: ArrayList<Statement> block = new ArrayList<>(); block.add(e1); RESULT=new Block(lleft, lright,block); :}
+            | LBRACE:l statement1:e1 RBRACE                   {: RESULT=new Block(lleft, lright,e1); :}
+            | LBRACE:l RBRACE                                 {: RESULT = new Block(lleft, lright,new ArrayList<>()); :}
+            ;
+statement1 ::= statement1:e2 statement:e1
+            {: e2.addAll(e1); RESULT = e2; :}
+            | statement:e1
+            {: RESULT=e1; :}
+//            | statement1:e2 dec:e1 SEMICOLON
+//            {: e2.addAll(e1); RESULT = e2; :}
+//            | dec:e1 SEMICOLON
+//            {: ArrayList<Statement> statements = new ArrayList<>(); statements.addAll(e1); RESULT=statements; :}
+//            | statement1:e2 dec:e1
+//            {: e2.addAll(e1); RESULT = e2; :}
+//            | dec:e1
+//            {: ArrayList<Statement> statements = new ArrayList<>(); statements.addAll(e1); RESULT=statements; :}
+            ;
+statement ::= statement2:e1 SEMICOLON                       {: RESULT = e1; :}
+            | statement2:e1                                 {: RESULT = e1; :}
+            ;
+statement2 ::= assignment:e1
+            {: RESULT = new ArrayList<Statement>(List.of(e1)); :}
+            | dec:e1
+            {:RESULT = new ArrayList<Statement>(e1);:}
+            | WHILE value:e1 statement:e2
+            {: RESULT = new ArrayList<Statement>(List.of(new While(e1, e2.get(0)))); :}
+            | IF value:e1 statement:e2 ELSE statement:e3
+            {: RESULT = new ArrayList<Statement>(List.of(new If(e1, e2.get(0), e3.get(0)))); :}
+            | IF value:e1 statement:e2
+            {: RESULT = new ArrayList<Statement>(List.of(new If(e1, e2.get(0), null))); :}
+            | proc_call:e1
+            {: RESULT = new ArrayList<Statement>(List.of(e1)); :}
+            | block:e1
+            {: RESULT = new ArrayList<Statement>(List.of(e1)); :}
+            | BREAK:e1
+            {: RESULT = new ArrayList<Statement>(List.of(new Break(e1left, e1right))); :}
+            ;
+return ::= RETURN:r                                           {: RESULT = new Return(rleft, rright, new ArrayList<>()); :}
+            | RETURN:r SEMICOLON                              {: RESULT = new Return(rleft, rright, new ArrayList<>()); :}
+            | RETURN:r values:e2 SEMICOLON                    {: RESULT = new Return(rleft, rright, e2); :}
+            | RETURN:r values:e2                              {: RESULT = new Return(rleft, rright, e2); :}
+            ;
+assignment ::= assiargs:e1 ASSIGN values:e2                 {: RESULT = new Assignment(e1, e2); :}
+            ;
+field_access ::= assignable:e1 DOT:e3 IDENTIFIER:e2
+            {: RESULT = new FieldAccess(e3left, e3right, e1, new Identifier(e2left, e2right, e2)); :}
+//            | field_access:e1 DOT:e3 IDENTIFIER:e2
+//            {: RESULT = new FieldAccess(e3left, e3right, e1, new Identifier(e2left, e2right, e2)); :}
+            ;
+assiargs ::= IDENTIFIER:e1
+            {: ArrayList<Node> args = new ArrayList<>(); args.add(new Identifier(e1left, e1right, e1)); RESULT=args; :}
+            | param_dec:e1
+            {: ArrayList<Node> args = new ArrayList<>(); args.add(e1); RESULT=args; :}
+            | array_assign:e1
+            {: ArrayList<Node> args = new ArrayList<>(); args.add(e1); RESULT=args; :}
+            | UNDERSCORE:e1
+            {: ArrayList<Node> args = new ArrayList<>(); args.add(Assignment.getUnderscore(e1left, e1right)); RESULT=args; :}
+            | field_access:e1
+            {: ArrayList<Node> args = new ArrayList<>(); args.add(e1); RESULT=args; :}
+            | IDENTIFIER:e2 COMMA assiargs:e1
+            {: e1.add(0, new Identifier(e2left, e2right, e2)); RESULT=e1; :}
+            | UNDERSCORE:e2 COMMA assiargs:e1
+            {: e1.add(0, Assignment.getUnderscore(e2left, e2right)); RESULT=e1; :}
+            | array_assign:e2 COMMA assiargs:e1
+            {: e1.add(0, e2); RESULT=e1; :}
+            | param_dec:e2 COMMA assiargs:e1
+            {: e1.add(0, e2); RESULT=e1; :}
+            | field_access:e2 COMMA assiargs:e1
+            {: e1.add(0, e2); RESULT=e1; :}
+            ;
+
+proc_call ::= func_call:e1                                  {: RESULT = ProcedureCall.fromFuncCall(e1); :}
+            ;
+func_call ::= IDENTIFIER:e1 LPAREN RPAREN
+            {: RESULT = new FuncCall(new Identifier(e1left, e1right,e1), new ArrayList<>()); :}
+            | IDENTIFIER:e1 LPAREN values:e2 RPAREN         {: RESULT = new FuncCall(new Identifier(e1left, e1right,e1), e2); :}
+            ;
+values ::= values:e2 COMMA value:e1                         {: e2.add(e1); RESULT = e2; :}
+            | value:e1
+            {: ArrayList<Expr> values = new ArrayList<>(); values.add(e1); RESULT=values; :}
+            ;
+value ::= value:v1 PLUS value:v2                            {: RESULT = new Value(Value.Op.PLUS, v1, v2); :}
+            | value:v1 MINUS value:v2                       {: RESULT = new Value(Value.Op.MINUS, v1, v2); :}
+            | value:v1 TIMES value:v2                       {: RESULT = new Value(Value.Op.TIMES, v1, v2); :}
+            | value:v1 DIVIDE value:v2                      {: RESULT = new Value(Value.Op.DIVIDE, v1, v2); :}
+            | value:v1 MODULO value:v2                      {: RESULT = new Value(Value.Op.MODULO, v1, v2); :}
+            | value:v1 HIGHMUL value:v2                     {: RESULT = new Value(Value.Op.HIGHMUL, v1, v2); :}
+            | value:v1 OR value:v2                          {: RESULT = new Value(Value.Op.OR, v1, v2); :}
+            | value:v1 AND value:v2                         {: RESULT = new Value(Value.Op.AND, v1, v2); :}
+            | value:v1 LT value:v2                          {: RESULT = new Value(Value.Op.LT, v1, v2); :}
+            | value:v1 LEQ value:v2                         {: RESULT = new Value(Value.Op.LEQ, v1, v2); :}
+            | value:v1 GT value:v2                          {: RESULT = new Value(Value.Op.GT, v1, v2); :}
+            | value:v1 GEQ value:v2                         {: RESULT = new Value(Value.Op.GEQ, v1, v2); :}
+            | value:v1 EQUAL value:v2                       {: RESULT = new Value(Value.Op.EQUAL, v1, v2); :}
+            | value:v1 NOT_EQUAL value:v2                   {: RESULT = new Value(Value.Op.NOT_EQUAL, v1, v2); :}
+            | NOT_LOG value:v                               {: RESULT = new Value(Value.Op.NOT_LOG, v); :}
+            | MINUS MIN_LONG: i                             {: RESULT = new Int(ileft, iright, -9223372036854775808L); :} %prec NEG
+            | MINUS value: v                                {: RESULT = new Value(Value.Op.MINUS, v); :} %prec NEG
+            | LPAREN value:v RPAREN                         {: RESULT = v; :}
+            | boolean: b                                    {: RESULT = b; :}
+            | CHARACTER_LITERAL: c                          {: RESULT = new Char(cleft, cright, c); :}
+            | INTEGER_LITERAL: i                            {: RESULT = new Int(ileft, iright, i); :}
+            | STRING_LITERAL: s                             {: RESULT = new Str(sleft, sright, s); :}
+            | array_literal: a                              {: RESULT = a;:}
+            | assignable:a                                  {: RESULT = a; :}
+            | LENGTH LPAREN value:v RPAREN                  {: RESULT = new Value(Value.Op.LENGTH, v); :}
+            | value:v1 LBRACKET value:v2 RBRACKET           {: RESULT = new Value(Value.Op.ARRAY_ACCESS, v1, v2); :}
+//            | field_access:e1                               {: RESULT = e1; :}
+            | NULL:e1                                       {: RESULT = new Null(e1left, e1right); :}
+            ;
+boolean ::= TRUE:b                                          {: RESULT = new Bool(bleft, bright, 1); :}
+            | FALSE:b                                       {: RESULT = new Bool(bleft, bright, 0); :}
+            ;
+array_literal ::= LBRACE:l values:ar RBRACE                 {: RESULT = new ArrayLiteral(lleft, lright, ar); :}
+            | LBRACE:l values:ar COMMA RBRACE               {: RESULT = new ArrayLiteral(lleft, lright, ar); :}
+            | LBRACE:l RBRACE                               {: RESULT = new ArrayLiteral(lleft, lright, new ArrayList<>()); :}
+            ;
+array_assign ::= assignable:v1 LBRACKET value:v2 RBRACKET
+            {: RESULT = new Value(Value.Op.ARRAY_ACCESS, v1, v2); :}
+//            | array_assign:ac LBRACKET value:v RBRACKET
+//            {: RESULT = new Value(Value.Op.ARRAY_ACCESS, ac, v); :}
+            ;
+assignable ::= func_call:e1 {: RESULT=e1; :}
+            | IDENTIFIER:e1 {: RESULT=new Identifier(e1left, e1right, e1); :}
+            | LPAREN assignable:e1 RPAREN {:RESULT=e1;:}
+            | array_assign:e1 {: RESULT=e1; :}
+            | field_access:e1 {: RESULT=e1; :}
+            ;

@@ -1,0 +1,22 @@
+use io
+use conv
+
+main(args:int[][]) {
+    nums: int[] = {2, 7, 11, 15}
+    target: int = 9
+    i: int = 0
+    j: int = 3
+    while(i < j){
+        sum: int = nums[i] + nums[j]
+        if(sum > target) j = j - 1
+        else{
+            if(sum < target) i = i + 1
+            else{
+                print(unparseInt(i))
+                print(" ")
+                print(unparseInt(j))
+                return
+            }
+        }
+    }
+}

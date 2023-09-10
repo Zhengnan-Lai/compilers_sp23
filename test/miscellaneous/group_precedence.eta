@@ -1,0 +1,5 @@
+foo(){
+    b: bool = !gcd(3, 10) & gcd(20, 6) | true
+    c: int = a *>> d + 6 % 8 - 9;
+    d: bool = !b & c | true | c >= (3 * 10005 - 20)
+}

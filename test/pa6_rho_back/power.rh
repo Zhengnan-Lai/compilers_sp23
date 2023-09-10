@@ -1,0 +1,24 @@
+use io
+use conv
+
+power(x:int, n:int):int{
+    if (n == 0){
+        return 1;
+    }
+    return x * power(x, n - 1);
+}
+
+myPow(x:int, n:int):int{
+    if (n >= 0){
+        num:int = power(x, n);
+        return num;
+    }
+    else{
+        println("cannot take power with negative exponents")
+        return 0;
+    }
+}
+
+main(a: int[][]){
+    print(unparseInt(myPow(2,20)))
+}

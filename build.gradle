@@ -1,0 +1,84 @@
+buildscript {
+    repositories {
+        flatDir {
+            dirs 'deps/libs/plugins'
+        }
+    }
+    dependencies {
+        classpath fileTree(dir: 'deps/libs/plugins', include: '*.jar')
+    }
+}
+
+// comment the plugins block below when you're building offline
+//plugins {
+//    id 'java'
+//    id 'com.github.johnrengelman.shadow' version '7.1.2'
+//}
+
+repositories {
+//    mavenCentral() // used to download dependencies, comment this when building offline
+    flatDir (dir: 'deps/libs/plugins')
+    flatDir (dir: 'deps/libs/test')
+    flatDir (dir: 'deps/libs/main')
+}
+
+apply plugin: 'java'
+apply plugin: 'com.github.johnrengelman.shadow'
+
+test {
+    useJUnitPlatform()
+}
+
+dependencies {
+    implementation fileTree(dir: 'deps/libs/main', include: '*.jar')
+    implementation fileTree(dir: 'deps/libs/test', include: '*.jar')
+    implementation fileTree(dir: 'deps/libs/plugins', include: '*.jar')
+
+    // dependencies for compilers-sp23
+    implementation group: 'commons-cli', name: 'commons-cli', version: '1.5.0'
+    implementation group: 'commons-io', name: 'commons-io', version: '2.11.0'
+}
+
+group 'compilers-sp23'
+
+shadowJar {
+    archiveBaseName.set('compilers-sp23-etac')
+    manifest {
+        attributes 'Main-Class' : 'zc246_zl345_co232_mw756.Main'
+    }
+}
+
+build {
+    dependsOn 'shadowJar'
+}
+
+task copyMainDependenciesToLib(type: Copy) {
+    includeEmptyDirs = true
+    into "deps/libs/main"
+    from configurations.runtimeClasspath
+}
+
+task copyTestDependenciesToLib(type: Copy) {
+    includeEmptyDirs = true
+    into "deps/libs/test"
+    from configurations.testRuntimeClasspath - configurations.runtimeClasspath
+}
+
+task copyCompileOnlyDependenciesToLib(type: Copy) {
+    includeEmptyDirs = true
+    into "deps/libs/compile-only"
+    from configurations.compileClasspath - configurations.runtimeClasspath
+}
+
+task copyPluginJarsToLib(type: Copy) {
+    includeEmptyDirs = true
+    into "deps/libs/plugins"
+    from buildscript.configurations.classpath
+}
+
+task copyDependenciesToLib{
+    dependsOn 'copyMainDependenciesToLib'
+    dependsOn 'copyTestDependenciesToLib'
+    dependsOn 'copyCompileOnlyDependenciesToLib'
+    dependsOn 'copyPluginJarsToLib'
+}

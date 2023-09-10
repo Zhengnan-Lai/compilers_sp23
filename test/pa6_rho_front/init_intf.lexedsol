@@ -1,0 +1,12 @@
+1:1 record
+1:8 id Point
+1:13 {
+2:5 id x
+2:6 :
+2:8 int
+3:5 id y
+3:6 :
+3:8 int
+3:12 =
+3:14 integer 2
+4:1 }

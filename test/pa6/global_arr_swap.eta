@@ -1,0 +1,11 @@
+use io
+use conv
+
+a:int[][][][]
+
+main(args: int[][]){
+    a = {{{{5}, {7}, {10}}}}
+    a[0][0][0][0], a[0][0][1][0] = a[0][0][1][0], a[0][0][0][0]
+    print(unparseInt(a[0][0][0][0]))
+    print(unparseInt(a[0][0][1][0]))
+}

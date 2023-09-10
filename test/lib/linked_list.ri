@@ -1,0 +1,4 @@
+record Node{
+    value: int
+    next: Node
+}

@@ -1,0 +1,35 @@
+use io
+use conv
+
+a:int[][]
+a1:int[]
+d:int
+e:int
+f:int
+g:int
+
+main(args:int[][]){
+    x:int[][] = {"hello", "world"}
+    a1 = x[0] // "hello"
+    a1 = {0,1,5,2,3,1}
+    d = x[0][0] // h
+    e = x[1][1]
+    f = x[a1[0]][0]
+    g = x[a1[1]][1]
+    println(unparseInt(d))
+    println(unparseInt(f))
+    println(unparseInt(e))
+    println(unparseInt(g))
+    if (d == f){
+        println("correct")
+    }
+    else{
+        println("wrong")
+    }
+    if (e == g){
+        println("correct again")
+    }
+    else{
+        println("wrong again")
+    }
+}

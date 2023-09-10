@@ -1,0 +1,20 @@
+len: int = 100
+n': int = -1
+a: int[n]
+q': int = ratadd(1,2,1,3)
+points: int[]
+debug: bool = false
+n: int = gcd(10, 2)
+
+setDebug(b: bool){
+    debug = b
+    points = {1,2,3,4}
+    len = -1230222
+}
+
+foo() {
+    while n > 0 {
+        n = n - 1
+        a[n] = n
+    }
+}

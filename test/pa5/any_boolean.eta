@@ -1,0 +1,43 @@
+use io
+use conv
+
+x:int = 1
+
+main(a: int[][]){
+    b:bool = true; // true
+    c:bool = false; // false
+    d:bool = b & b; // true
+    e:bool = b | b; // true
+    f:bool = b & c; // false
+    g:bool = b | c; // true
+    h:bool = c & c; // false
+    i:bool = c | c; // false
+    j:bool = true | (x/0>3)
+    k:bool = false & (x/0>3)
+    printBool(b);
+    printBool(c);
+    printBool(d);
+    printBool(e);
+    printBool(f);
+    printBool(g);
+    printBool(h);
+    printBool(i);
+    printBool(j);
+    printBool(k);
+}
+
+printBool(b:bool){
+    if(b){
+        println("true")
+    }else{
+        println("false")
+    }
+}
+
+f1():bool{
+    return false & true | false | false | (false | true) | (true & false); // true
+}
+
+f2():bool{
+    return true & true & true & true & true & (false | true) & (false & false); // false
+}

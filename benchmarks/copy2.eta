@@ -1,0 +1,14 @@
+main(args:int[][]){
+    i:int=0
+    a:int,b:int,c:int,d:int,e:int,f:int,g:int,h:int=1,2,3,4,5,6,7,8
+    while(i<80000000){
+        a,b,c,d,e,f,g,h=k(a,b,c,d,e,f,g,h)
+        i=i+1
+    }
+}
+
+k(a:int,b:int,c:int,d:int,e:int,f:int,g:int,h:int)
+    :int,int,int,int,int,int,int,int{
+    b,c,d,e,f,g,h,a=a,b,c,d,e,f,g,h
+    return a,b,c,d,e,f,g,h
+}

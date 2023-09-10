@@ -1,0 +1,22 @@
+f(x:int) : int{
+    return x
+}
+
+g(x:bool) : bool{
+    return x
+}
+
+h(x:int[]) : int[]{
+    return x
+}
+
+p():int, int{
+    return 1,2
+}
+
+main(){
+    a: int
+    b: bool
+    c: int[]
+    a = p() + p()
+}

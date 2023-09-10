@@ -1,0 +1,9 @@
+f(x:int):int{
+    return x
+}
+
+main(){
+    if(f(3)){
+        x:int = 4
+    }
+}

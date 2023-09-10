@@ -1,0 +1,17 @@
+use io
+use conv
+
+main(args: int[][]){
+    nums: int[] = {-1, 0, 3, 5, 9, 12}
+    target: int = 9
+    l: int = 0
+    r: int = 5
+    while(l <= r){
+        mid: int = (l + r) / 2
+        if(nums[mid] == target) {print(unparseInt(mid)); return}
+        else{
+            if(nums[mid] > target) r = mid - 1
+            else l = mid + 1
+        }
+    }
+}

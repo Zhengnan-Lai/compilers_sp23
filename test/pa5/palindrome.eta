@@ -1,0 +1,19 @@
+use io
+use conv
+
+main(args: int[][]){
+    x: int = 121
+    ans: int = palin(x)
+    if(x == ans) print("true")
+    else print("false")
+}
+
+palin(x: int): int{
+    r: int = 0
+    while(x > 0){
+        t: int = x % 10
+        r = r * 10 + t
+        x = x / 10
+    }
+    return r
+}

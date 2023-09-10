@@ -1,0 +1,8 @@
+use io
+use conv
+
+x:int = 111
+main(args: int[][]) {
+    b:int = 0
+    c:int = b/3
+}

@@ -1,0 +1,8 @@
+f(x:int){
+
+}
+
+main(){
+    return;
+    f(1);
+}

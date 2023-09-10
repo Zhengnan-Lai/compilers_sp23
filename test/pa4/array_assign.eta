@@ -1,0 +1,12 @@
+use io
+use conv
+
+main(args: int[][]){
+    arr: int[][] = {{1,2}, {3,4}}
+    arr1: int[] = arr[0]
+    arr2: int[] = arr[1]
+    a: int = arr1[0]
+    print(unparseInt(a))
+    print(unparseInt(arr1[1]))
+    print(unparseInt(arr2[1]))
+}

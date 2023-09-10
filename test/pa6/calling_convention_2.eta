@@ -1,0 +1,43 @@
+// having 2 arguments and use both
+// returning 2 arguments and read the results
+use io
+use conv
+
+main(args: int[][]){
+    a: int[] = "hello world!"
+    b: int[] = "goodbye world"
+    res1: int
+    res2: int
+    res1, res2 = multi_return_2(a, b)
+    println(unparseInt(res1))
+    println(unparseInt(res2))
+}
+
+multi_return_2(arg1: int[], arg2: int[]): int, int{
+    i: int = length(arg1)
+    j: int = length(arg2)
+    m: int
+
+    arg1Extra: int = 0
+    arg2Extra: int = 0
+
+    if (i < j){
+        m = i
+    }
+    else{
+        m = j
+    }
+    index: int = 0
+
+    while (index < m){
+        if (arg1[index] > arg2[index]){
+            arg1Extra = arg1Extra + 1
+        }
+        else{
+            arg2Extra = arg2Extra + 1
+        }
+        index = index + 1
+    }
+  return arg1Extra, arg2Extra
+}
+

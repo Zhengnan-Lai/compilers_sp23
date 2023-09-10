@@ -1,0 +1,36 @@
+use io
+use conv
+
+main(args: int[][]){
+    fast: int = 19
+    slow: int = 19
+
+    fast=sum(fast);
+    fast=sum(fast);
+    if(fast==1){
+        print("true")
+        return
+    }
+    slow=sum(slow)
+
+    while(fast != slow){
+        fast=sum(fast);
+        fast=sum(fast);
+        if(fast==1){
+            print("true")
+            return
+        }
+        slow=sum(slow)
+    }
+    print("false")
+}
+
+sum(n: int): int{
+    ans: int = 0
+    while(n > 0){
+        t: int = n % 10
+        ans = ans + t * t
+        n = n / 10
+    }
+    return ans
+}

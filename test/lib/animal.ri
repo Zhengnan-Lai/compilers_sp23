@@ -1,0 +1,6 @@
+record animal{
+    name: int[]
+    age: int
+    isMammal: bool
+}
+

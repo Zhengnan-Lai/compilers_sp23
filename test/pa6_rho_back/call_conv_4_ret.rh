@@ -1,0 +1,15 @@
+use io
+use conv
+
+main(args: int[][]){
+    a: int = 5
+    res1: int, res2: int, res3: int = return_4(a)
+    print(unparseInt(res1))
+    print(unparseInt(res2))
+    print(unparseInt(res3))
+}
+
+return_4(a: int): int, int, int{
+    print(unparseInt(a))
+    return a, a, a
+}

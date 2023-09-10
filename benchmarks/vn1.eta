@@ -1,0 +1,19 @@
+main(args:int[][]){x:int=0;m:int[10];  
+    while(x<10000000){a:int;b:int;c:int;d:int;e:int;
+    f:int;g:int;h:int;i:int;j:int;k:int;l:int; 
+    x=x+1;p:int=2147483647;
+    b,c,d,e,f,g,h,i,j,k,l=a,a,a,a,a,a,a,a,a,a,a;    
+    t1:int=a*b*c*d*e*f*g*h*i*j*k*l; 
+    t2:int=b*c*d*e*f*g*h*i*j*k*l*a;
+    t3:int=c*d*e*f*g*h*i*j*k*l*a*b;
+    t4:int=d*e*f*g*h*i*j*k*l*a*b*c;
+    t5:int=e*f*g*h*i*j*k*l*a*b*c*d;
+    t6:int=f*g*h*i*j*k*l*a*b*c*d*e;
+    t7:int=g*h*i*j*k*l*a*b*c*d*e*f;
+    t8:int=h*i*j*k*l*a*b*c*d*e*f*g;
+    t9:int=j*k*l*a*b*c*d*e*f*g*h*g;
+    fun(t1,t2,t3,t4,t5,t6,t7,t8,t9)
+}}
+fun(t1:int,t2:int,t3:int,t4:int,t5:int,t6:int,t7:int,t8:int,t9:int){
+    return
+}

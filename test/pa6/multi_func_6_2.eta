@@ -1,0 +1,76 @@
+use io
+use conv
+
+main(args: int[][]){
+    arg1: int = 34
+    arg2: int = 56
+    arg3: int = 78
+    arg4: int = 99
+    arg5: int = 104
+    arg6: int = 9223372036854775807
+    res1: int, res2: int, res3: int, res4: int, res5: int, res6: int = a1(arg1, arg2, arg3, arg4, arg5, arg6)
+    println(unparseInt(res1))
+    println(unparseInt(res2))
+    println(unparseInt(res3))
+    println(unparseInt(res4))
+    println(unparseInt(res5))
+    println(unparseInt(res6))
+}
+
+a1(a: int, b: int, c: int, d: int, e: int, f: int): int, int, int, int, int, int{
+    println(unparseInt(a))
+    println(unparseInt(b))
+    println(unparseInt(c))
+    println(unparseInt(d))
+    println(unparseInt(e))
+    println(unparseInt(f))
+    sum: int = (a + b + c + d + e + f)/654
+    res1: int, res2: int, res3: int, res4: int, res5: int, res6: int = b1(a + sum, b + sum, c + sum, d + sum, e + sum, f + sum)
+    return res1, res2, res3, res4, res5, res6
+}
+
+b1(a: int, b: int, c: int, d: int, e: int, f: int): int, int, int, int, int, int{
+    println(unparseInt(a))
+    println(unparseInt(b))
+    println(unparseInt(c))
+    println(unparseInt(d))
+    println(unparseInt(e))
+    println(unparseInt(f))
+    sum: int = (a + b + c + d + e + f) * 2
+    res1: int, res2: int, res3: int, res4:int, res5:int, res6:int = c1(a + sum, b + sum, c + sum, d + sum, e + sum, f + sum)
+    return res1, res2, res3, res4, res5, res6
+}
+
+c1(a: int, b: int, c: int, d: int, e: int, f: int): int, int, int, int, int, int{
+    println(unparseInt(a))
+    println(unparseInt(b))
+    println(unparseInt(c))
+    println(unparseInt(d))
+    println(unparseInt(e))
+    println(unparseInt(f))
+    sum: int = (a + b + c + d + e + f) *>> 2837412402322
+    res1: int, res2: int, res3: int, res4:int, res5:int, res6:int = d1(a + sum, b + sum, c + sum, d + sum, e + sum, f + sum)
+    return res1, res2, res3, res4, res5, res6
+}
+
+d1(a: int, b: int, c: int, d: int, e: int, f: int): int, int, int, int, int, int{
+    println(unparseInt(a))
+    println(unparseInt(b))
+    println(unparseInt(c))
+    println(unparseInt(d))
+    println(unparseInt(e))
+    println(unparseInt(f))
+    sum: int = (a + b + c + d + e + f) % 42
+    res1: int, res2: int, res3: int, res4:int, res5:int, res6:int = e1(a + sum, b + sum, c + sum, d + sum, e + sum, f + sum)
+    return res1, res2, res3, res4, res5, res6
+}
+
+e1(a: int, b: int, c: int, d: int, e: int, f: int): int, int, int, int, int, int{
+    println(unparseInt(a))
+    println(unparseInt(b))
+    println(unparseInt(c))
+    println(unparseInt(d))
+    println(unparseInt(e))
+    println(unparseInt(f))
+    return a, b, c, d, e, f
+}

@@ -1,0 +1,18 @@
+foo() {
+    i: int = 47
+
+    ai: int[]
+    ai[0] = 0
+    ai['c'] = 0
+    ai[i] = 0
+
+    ab: bool[]
+    ab[0] = false
+    ab['c'] = false
+    ab[i] = false
+
+    aai: int[][]
+    aai[0] = {1}
+    aai['c'] = {1}
+    aai[i] = {1}
+}

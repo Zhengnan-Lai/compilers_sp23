@@ -1,0 +1,29 @@
+use io
+use conv
+
+main(args:int[][]) {
+    height: int[] = {1,8,6,2,5,4,8,3,7}
+    target: int = 49
+    l: int = 0
+    r: int = 8
+    area:int = 0
+    while (l < r) {
+        min:int = 0
+        if (height[l] < height[r]) {
+            min = height[l]
+        } else {
+            min = height[r]
+        }
+        max:int = 0
+        temp:int = (r - l) * min
+        if (temp > area) {
+            area = temp
+        }
+        if (height[l] < height[r]) {
+            l = l + 1
+        } else {
+            r = r - 1
+        }
+    }
+    print(unparseInt(area))
+}

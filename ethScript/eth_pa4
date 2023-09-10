@@ -1,0 +1,120 @@
+// eth -testpath test/pa4 ethScript/eth_pa4
+
+build
+
+etac ("Test --help") "--help" {
+}
+
+etac ("Test --lex") "--lex" {
+}
+
+etac ("Test --parse") "--parse" {
+}
+
+etac ("Test --typecheck") "-libpath test/lib --typecheck" {
+}
+
+etac ("Test --irgen") "-libpath test/lib --irgen" {
+	ack.eta;
+	any_boolean.eta;
+	arr.eta;
+	array_assign.eta;
+	arr_func.eta;
+	binary.eta;
+	binpow.eta;
+	bubble.eta;
+	countGoodNumbers.eta;
+	ex01.eta;
+	ex05.eta;
+	fcall.eta;
+	fibonacci.eta;
+	func_assign.eta;
+	global_arr_assign.eta;
+	global_arr_swap.eta;
+	global_var.eta;
+	happy.eta;
+	jump_twice.eta;
+	missing.eta;
+	multi_while.eta;
+	ndglobal.eta;
+	nested_if.eta;
+	number_of_islands.eta;
+	oob2.eta;
+	oob3.eta;
+	palindrome.eta;
+	parity.eta;
+	power.eta;
+	power2.eta;
+	primes.eta;
+	rotate_image.eta;
+	stairs.eta;
+	sudoku.eta;
+	swap.eta;
+	two_sum.eta;
+	water.eta;
+}
+
+etac ("Test -O --irgen") "-libpath test/lib --irgen -O" {
+	ack.eta;
+	any_boolean.eta;
+	arr.eta;
+	array_assign.eta;
+	arr_func.eta;
+	binary.eta;
+	binpow.eta;
+	bubble.eta;
+	countGoodNumbers.eta;
+	ex01.eta;
+	ex05.eta;
+	fcall.eta;
+	fibonacci.eta;
+	func_assign.eta;
+	global_arr_assign.eta;
+	global_arr_swap.eta;
+	global_var.eta;
+	happy.eta;
+	jump_twice.eta;
+	missing.eta;
+	multi_while.eta;
+	ndglobal.eta;
+	nested_if.eta;
+	number_of_islands.eta;
+	oob2.eta;
+	oob3.eta;
+	palindrome.eta;
+	parity.eta;
+	power.eta;
+	power2.eta;
+	primes.eta;
+	rotate_image.eta;
+	stairs.eta;
+	sudoku.eta;
+	swap.eta;
+	two_sum.eta;
+	water.eta;
+}
+
+etac ("Test -target linux") "-libpath test/lib -target linux" {
+}
+
+etac ("Test -O -target linux") "-libpath test/lib -target linux -O" {
+}
+
+etac ("Test -Oreg -target linux") "-libpath test/lib -target linux -Oreg" {
+}
+
+etac ("Test -Ocf -target linux") "-libpath test/lib -target linux -Ocf" {
+}
+
+etac ("Test -Odce -target linux") "-libpath test/lib -target linux -Odce" {
+}
+
+etac ("Test -Ocp -target linux") "-libpath test/lib -target linux -Ocp" {
+}
+
+etac ("Test -Ocopy -target linux") "-libpath test/lib -target linux -Ocopy" {
+}
+
+etac ("Test -Ovn -target linux") "-libpath test/lib -target linux -Ovn" {
+}
+

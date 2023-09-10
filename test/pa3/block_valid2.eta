@@ -1,0 +1,9 @@
+main():int{
+    x:int = 0
+    {
+        y:bool = false;
+        x = 1
+        y = true
+        return x;
+    }
+}

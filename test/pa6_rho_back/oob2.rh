@@ -1,0 +1,4 @@
+main(args:int[][]){
+    a:int[10][1]
+    b:int = a[1][2]
+}

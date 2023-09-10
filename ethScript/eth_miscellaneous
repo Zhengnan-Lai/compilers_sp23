@@ -1,0 +1,124 @@
+// eth -testpath test/miscellaneous ethScript/eth_miscellaneous
+
+build
+
+etac ("Test --help") "--help" {
+}
+
+etac ("Test --lex") "--lex" {
+	add.eta;
+	arrayinit2_p1.eta;
+	arrayinit_p1.eta;
+	beauty.eta;
+	ex1.eta;
+	ex2_p1.eta;
+	gcd_p1.eta;
+	insertionsort.eta;
+	mdarrays_p1.eta;
+	ratadduse_p1.eta;
+	ratadd_p1.eta;
+	spec1_p1.eta;
+	spec2_p1.eta;
+	spec3_p1.eta;
+}
+
+etac ("Test --parse") "--parse" {
+	add.eta;
+	arrayinit.eta;
+	arrayinit2.eta;
+	beauty.eta;
+	ex02.eta;
+	ex1.eta;
+	ex3.eta;
+	gcd.eta;
+	group_array_index_assignment.eta;
+	group_array_io.eti;
+	group_array_values.eta;
+	group_comma_array.eta;
+	group_example.eta;
+	group_fake_ratadd.eta;
+	group_fake_ratadduse.eta;
+	group_global_variables.eta;
+	group_illegal_array.eta;
+	group_illegal_array2.eta;
+	group_mdarrays.eta;
+	group_multi_assignment.eta;
+	group_multi_return.eta;
+	group_precedence.eta;
+	insertionsort.eta;
+	io.eti;
+	mdarrays.eta;
+	ratadd.eta;
+	ratadduse.eta;
+	spec1.eta;
+	spec2.eta;
+	spec3.eta;
+}
+
+etac ("Test --typecheck") "-libpath test/lib --typecheck" {
+	arrayinit.eta;
+	arrayinit2-full.eta;
+	arrayinit2-full_p3.eta;
+	arrayinit2.eta;
+	arrayinit2_p3.eta;
+	arrayinit_p3.eta;
+	ex01.eta;
+	ex02.eta;
+	ex03.eta;
+	ex04.eta;
+	ex05.eta;
+	ex06.eta;
+	ex07.eta;
+	ex08.eta;
+	ex09.eta;
+	ex10.eta;
+	ex11.eta;
+	ex12.eta;
+	gcd.eta;
+	insertionsort.eta;
+	mdarrays.eta;
+	mismatch-multi-assign.eta;
+	more-multi-assign.eta;
+	predeclare-multi.eta;
+	ratadd-full.eta;
+	ratadd.eta;
+	ratadduse-full.eta;
+	ratadduse.eta;
+	ratadd_p3.eta;
+	simple-multi.eta;
+	spec1-full.eta;
+	spec1.eta;
+	spec2.eta;
+	spec3.eta;
+}
+
+etac ("Test --irgen") "-libpath test/lib --irgen" {
+}
+
+etac ("Test -O --irgen") "-libpath test/lib --irgen -O" {
+}
+
+etac ("Test -target linux") "-libpath test/lib -target linux" {
+}
+
+etac ("Test -O -target linux") "-libpath test/lib -target linux -O" {
+}
+
+etac ("Test -Oreg -target linux") "-libpath test/lib -target linux -Oreg" {
+}
+
+etac ("Test -Ocf -target linux") "-libpath test/lib -target linux -Ocf" {
+}
+
+etac ("Test -Odce -target linux") "-libpath test/lib -target linux -Odce" {
+}
+
+etac ("Test -Ocp -target linux") "-libpath test/lib -target linux -Ocp" {
+}
+
+etac ("Test -Ocopy -target linux") "-libpath test/lib -target linux -Ocopy" {
+}
+
+etac ("Test -Ovn -target linux") "-libpath test/lib -target linux -Ovn" {
+}
+

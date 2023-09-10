@@ -1,0 +1,6 @@
+use private_point
+
+main(args: int[][]){
+    p: point3d = point3d(1)
+    pillegal: point3d = point3d(1,2,3)
+}

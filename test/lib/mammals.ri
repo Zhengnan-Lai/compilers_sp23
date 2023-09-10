@@ -1,0 +1,6 @@
+use animal
+
+record mammal{
+    parent: animal
+    isMonkey: bool
+}

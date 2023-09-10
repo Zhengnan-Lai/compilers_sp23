@@ -1,0 +1,25 @@
+use io
+use conv
+
+mod:int = 1000000007
+
+power(x: int, n: int): int {
+    if (n == 0){
+        return 1;
+    }
+    ans:int = power(x, n/2);
+    ans = ans * ans;
+    ans = ans % mod;
+    if (n % 2 == 1) {
+        ans = ans * x;
+        ans = ans % mod;
+    }
+    return ans;
+}
+
+main(args: int[][]){
+    n:int = 4;
+    numberOfOddPlaces:int = n/2;
+    numberOfEvenPlaces:int = n/2 + n % 2;
+    println(unparseInt((power(5, numberOfEvenPlaces) * power(4, numberOfOddPlaces)) % mod));
+}

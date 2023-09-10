@@ -1,0 +1,16 @@
+use io
+use conv
+
+main(ars: int[][]){
+    nums: int[] = {1,2,3,5,8,13,21,34}
+    i: int = 0
+    j: int = len(nums)
+    ans: int
+    while(i < j){
+        m: int = (i+j)/2
+        if(nums[m] == 8) {ans = m; break}
+        else if(nums[m] < 8) i = m + 1
+        else j = m - 1
+    }
+    print(unparseInt(ans))
+}

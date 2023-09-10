@@ -1,0 +1,15 @@
+#!/bin/bash
+sed -i -e 's/\r$//' etac-build
+DIR=`dirname $0`
+DEPS=$DIR/deps/libs/main
+SRC=$DIR/src/main/java/zc246_zl345_co232_mw756
+rm -f "$SRC"/lex/YyLex.java
+rm -f "$SRC"/rho/parser.java
+rm -f "$SRC"/eta/parser.java
+rm -f "$SRC"/rho/sym.java
+rm -f "$SRC"/eta/sym.java
+gradle clean
+jflex -d "$SRC"/lex "$SRC"/YyLex.flex
+java -jar "$DEPS"/java_cup.jar -destdir "$SRC"/rho "$SRC"/rho/rho.cup
+java -jar "$DEPS"/java_cup.jar -destdir "$SRC"/eta "$SRC"/eta/eta.cup
+gradle --no-daemon -b build.gradle shadowJar --stacktrace

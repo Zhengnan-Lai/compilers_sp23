@@ -1,0 +1,20 @@
+record a1{
+    a: int
+    b: bool
+    c: int[]
+    d: bool[]
+}
+
+record a2{
+    e: int
+    f: bool
+}
+
+record a3{
+    e: int
+    f: bool
+    g: bool[]
+    h: a1
+}
+
+

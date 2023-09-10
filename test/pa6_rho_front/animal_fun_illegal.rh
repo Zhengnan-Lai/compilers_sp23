@@ -1,0 +1,7 @@
+use monkeys_illegal
+
+main(args: int[][]){
+    a: animal = animal("cute monkey", 10, true)
+    ma: mammal = mammal(a, true)
+    mo: monkey = monkey(a, ma, "golden")
+}

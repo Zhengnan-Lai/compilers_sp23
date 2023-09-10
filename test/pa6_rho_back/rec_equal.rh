@@ -1,0 +1,42 @@
+use io
+
+main(x: int[][]){
+    a:A = A(10, null)
+    at:A = a
+    af1:A = A(10, null)
+    af2:A = A(10, af1)
+    af3:A = A(1, af1)
+    b:B = B(10, null)
+    bt:B = b
+    bf:B = B(10, null)
+    c:C
+    cf:C = C(1, c)
+
+    printBool(a == at)
+    printBool(a != af1)
+    printBool(a != af2)
+    printBool(a != af3)
+    printBool(b == bt)
+    printBool(b == bf)
+    printBool(cf == c)
+}
+
+printBool(b:bool){
+    if(!b) println("false")
+    else println("true")
+}
+
+record A{
+    x:int
+    y:A
+}
+
+record B{
+    x:int
+    y:B
+}
+
+record C{
+    x:int
+    y:C
+}

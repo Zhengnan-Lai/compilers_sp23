@@ -1,0 +1,19 @@
+main(args:int[][]){x:int=0;while(x<3000000){a:int;b:int;c:int;d:int;e:int;
+f:int;g:int;h:int;i:int;j:int;k:int;l:int; 
+x=x+1;a=2147483647;b,c,d,e,f,g,h,i,j,k,l=a,a,a,a,a,a,a,a,a,a,a; 
+_ = fun(b*c*d,b*c*e,b*c*f,b*c*g,b*c*h);_ = fun(b*c*d,b*c*e,b*c*f,b*c*g,b*c*h);
+_ = fun(b*c*i,b*c*j,b*c*k,b*c*l,b*d*e);_ = fun(b*c*i,b*c*j,b*c*k,b*c*l,b*d*e);
+_ = fun(b*d*f,b*d*g,b*d*h,b*d*i,b*d*j);_ = fun(b*d*f,b*d*g,b*d*h,b*d*i,b*d*j);
+_ = fun(b*d*k,b*d*l,b*e*f,b*e*g,b*e*h);_ = fun(b*d*k,b*d*l,b*e*f,b*e*g,b*e*h);
+_ = fun(b*e*i,b*e*j,b*e*k,b*e*l,b*f*g);_ = fun(b*e*i,b*e*j,b*e*k,b*e*l,b*f*g);
+_ = fun(b*f*h,b*f*i,b*f*j,b*f*k,b*f*l);_ = fun(b*f*h,b*f*i,b*f*j,b*f*k,b*f*l);
+_ = fun(c*c*d,c*c*e,c*c*f,c*c*g,c*c*h);_ = fun(c*c*d,c*c*e,c*c*f,c*c*g,c*c*h);
+_ = fun(c*c*i,c*c*j,c*c*k,c*c*l,c*d*e);_ = fun(c*c*i,c*c*j,c*c*k,c*c*l,c*d*e);
+_ = fun(c*d*f,c*d*g,c*d*h,c*d*i,c*d*j);_ = fun(c*d*f,c*d*g,c*d*h,c*d*i,c*d*j);
+_ = fun(c*d*k,c*d*l,c*e*f,c*e*g,c*e*h);_ = fun(c*d*k,c*d*l,c*e*f,c*e*g,c*e*h);
+_ = fun(c*e*i,c*e*j,c*e*k,c*e*l,c*f*g);_ = fun(c*e*i,c*e*j,c*e*k,c*e*l,c*f*g);
+_ = fun(c*f*h,c*f*i,c*f*j,c*f*k,c*f*l);_ = fun(c*f*h,c*f*i,c*f*j,c*f*k,c*f*l);
+}}
+fun(x: int, y:int, z:int, w:int, v:int): int{
+    return x+y+z+w+v
+}

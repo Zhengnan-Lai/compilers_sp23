@@ -1,0 +1,26 @@
+use io
+use conv
+
+a: int = 4294967296 // add
+b: int = 42949672963546789 // hmul
+c: int = 9942949672967564 // div mod
+d: int = 2856780 // mixture
+e: int = 1000001
+f: int = 412041204120
+g: int = -9
+
+main(args: int[][]){
+    a = 1 + 2 + 5 - 6 + (8 + (9 + 10) + 11)
+    b = a * (a + (f - g * g * g * (g % (f - (c - g + a * a + (f / e))))))
+    c = a * b * f % a * b * (b % 19)
+    d = a % (c * (d % (e + (f * g) + 90) * 19) + 2900) % (c * (d % (e + (f * g) - 9999) * 19) + 2900)
+    e = 4294967296 *>> (4294967296 *>> 4294967296967296) * 70 + (d * (f - g + e))
+    f = b * a * (9244967296 *>> (b *>> b) + (f - g * g * g * (g * (f - (c - g + a * a + (f / e))))))
+    println(unparseInt(a))
+    println(unparseInt(b))
+    println(unparseInt(c))
+    println(unparseInt(d))
+    println(unparseInt(e))
+    println(unparseInt(f))
+    println(unparseInt(g))
+}

@@ -1,0 +1,20 @@
+use io
+use conv
+
+main(args: int[][]){
+    nums: int[] = {3, 1, 2, 4}
+    i: int = 0
+    j: int = 3
+    while(i < j){
+        if(nums[i] % 2 == 1){
+            nums[i], nums[j] = nums[j], nums[i]
+            j = j - 1
+        }
+        else i = i + 1
+    }
+    i = 0
+    while(i < 4){
+        print(unparseInt(nums[i]))
+        i = i + 1
+    }
+}

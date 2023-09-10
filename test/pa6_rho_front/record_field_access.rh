@@ -1,0 +1,9 @@
+use multi_intf
+use io
+use conv
+
+main(args: int[][]){
+    a: Point = Point(2, 6)
+    x: int = a.x
+    y: int = a.y
+}

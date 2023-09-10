@@ -1,0 +1,73 @@
+f(x:int):int{
+    return x
+}
+
+g(x:int,b:bool):int[]{
+    return {x,x,x};
+}
+
+h(b:bool):bool{
+    return !!b;
+}
+
+e(x:int):int[]{
+    return "hello world"
+}
+
+a(x:int):int, int{
+    return x, x
+}
+
+bb(x:int[]):int{
+    return x[0]
+}
+
+
+main(){
+    x1:int = 1;
+    x2:int = 0;
+    x3:int = -1;
+    x4:int = 'a';
+    x5:int = '你'
+    x6:int = -'你'
+    x7:int = -9223372036854775808
+    x8:int = 9223372036854775807
+    x9:int = f(f(f(f(f(x1)))))
+    x10:int = x7 *>> x8
+    x11:int = x7 + x8
+    x12:int = x7 - x8
+    x13:int = x7 * x8
+    x14:int = x7 / x8
+    x15:int = x7 % x8
+
+    y1:bool = true;
+    y2:bool = false;
+    y3:bool = true & true;
+    y4:bool = true & false;
+    y5:bool = false & true;
+    y6:bool = false & false;
+    y7:bool = true | true;
+    y8:bool = true | false;
+    y9:bool = false | true;
+    y10:bool = false | false;
+    y11:bool = 9223372036854775807 > -9223372036854775808;
+    y12:bool = 9223372036854775807 >= -9223372036854775808;
+    y13:bool = 9223372036854775807 < -9223372036854775808;
+    y14:bool = 9223372036854775807 <= -9223372036854775808;
+    y15:bool = 9223372036854775807 == -9223372036854775808;
+    y16:bool = !y1;
+    y17:bool = !y2;
+    y18:bool = 9223372036854775807 != -9223372036854775808;
+    y19:bool = !!!!!!!!!!!!!!!!y16
+    y20:bool = h(y1)
+    y21:bool = h(y20)
+
+    z1:int[] = g(x9, y21);
+    z2:int[] = g(x9, y20);
+    z3:int[] = e(x9);
+
+    w1:int, w2:int[], w3:int, w4:int = 1, g(x9, y12), a(x10);
+
+    m:int[2][];
+    _ = bb(m[2]);
+}

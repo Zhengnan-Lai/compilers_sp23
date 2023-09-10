@@ -1,0 +1,15 @@
+f():int, int{
+    return 1, 2;
+}
+
+main(){
+    x:int, y:int = f();
+    a:int, b:int, c:bool = 1, 2, true;
+    arr:int[] = "hello world"
+    arr[0] = 1;
+    arr[1], arr[2] = arr[2], arr[1];
+    arr[4] = arr[3] + arr[2] + 1;
+    k:bool;
+    l:bool[];
+    k,l = true, {false, true}
+}

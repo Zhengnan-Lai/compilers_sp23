@@ -1,0 +1,8 @@
+use io
+use conv
+main(args: int[][]) {
+    a:int[2]
+    a[0]='a'
+    a[1]='b'
+    println(unparseInt(a[0]) + unparseInt(a[1]))
+}

@@ -1,0 +1,17 @@
+record a1{
+    a: int
+    b: bool
+    c: int[]
+    d: bool[]
+}
+
+record a2{
+    e: int
+    f: bool
+    g: bool[]
+    h: a1
+}
+
+main(args: int[][]){
+    a: a1 = a1(3, false, {3}, {true})
+}

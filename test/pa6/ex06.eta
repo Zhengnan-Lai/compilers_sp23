@@ -1,0 +1,7 @@
+use io
+use conv
+
+x:int = 111
+main(args: int[][]) {
+    println({x})
+}

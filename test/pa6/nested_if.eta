@@ -1,0 +1,23 @@
+use io
+use conv
+
+main(args:int[][]) {
+    i:int = 0
+    if(i < 2) {
+        if (i < 2) {
+            i = i + 1
+            if (i < 2) {
+                i = i + 1
+                if (i < 3) {
+                    i = i + 1
+                    if (i < 4) {
+                        i = i + 1
+                        if (i < 5) {
+                            println(unparseInt(5))
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

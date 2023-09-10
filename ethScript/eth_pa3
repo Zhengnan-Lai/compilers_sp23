@@ -1,0 +1,100 @@
+// eth -testpath test/pa3 ethScript/eth_pa3
+
+build
+
+etac ("Test --help") "--help" {
+}
+
+etac ("Test --lex") "--lex" {
+}
+
+etac ("Test --parse") "--parse" {
+}
+
+etac ("Test --typecheck") "-libpath test/lib --typecheck" {
+	any.eta;
+	any_valid.eta;
+	arrayinit2-full.eta;
+	assign_invalid2.eta;
+	assign_invalid3.eta;
+	assign_invalid4.eta;
+	assign_valid1.eta;
+	block_invalid1.eta;
+	block_invalid2.eta;
+	block_invalid3.eta;
+	block_invalid4.eta;
+	block_valid1.eta;
+	block_valid2.eta;
+	block_valid3.eta;
+	ex01.eta;
+	expr_invalid1.eta;
+	expr_invalid2.eta;
+	expr_invalid3.eta;
+	expr_invalid4.eta;
+	expr_valid1.eta;
+	function_invalid10.eta;
+	function_invalid11.eta;
+	function_invalid2.eta;
+	function_invalid3.eta;
+	function_invalid5.eta;
+	function_invalid6.eta;
+	function_invalid7.eta;
+	function_invalid8.eta;
+	function_invalid9.eta;
+	function_valid1.eta;
+	if_invalid1.eta;
+	if_invalid2.eta;
+	if_invalid3.eta;
+	if_valid1.eta;
+	if_valid2.eta;
+	if_valid3.eta;
+	if_valid4.eta;
+	if_valid5.eta;
+	if_valid6.eta;
+	op_invalid1.eta;
+	op_invalid2.eta;
+	op_invalid3.eta;
+	op_invalid4.eta;
+	op_invalid5.eta;
+	op_valid.eta;
+	proc_invalid1.eta;
+	proc_invalid2.eta;
+	proc_valid.eta;
+	use_invalid1.eta;
+	use_invalid2.eta;
+	use_valid.eta;
+	use_valid3.eta;
+	while_valid.eta;
+	while_valid2.eta;
+}
+
+etac ("Test --irgen") "-libpath test/lib --irgen" {
+}
+
+etac ("Test -O --irgen") "-libpath test/lib --irgen -O" {
+}
+
+etac ("Test -target linux") "-libpath test/lib -target linux" {
+}
+
+etac ("Test -O -target linux") "-libpath test/lib -target linux -O" {
+}
+
+etac ("Test -Oreg -target linux") "-libpath test/lib -target linux -Oreg" {
+}
+
+etac ("Test -Ocf -target linux") "-libpath test/lib -target linux -Ocf" {
+}
+
+etac ("Test -Odce -target linux") "-libpath test/lib -target linux -Odce" {
+}
+
+etac ("Test -Ocp -target linux") "-libpath test/lib -target linux -Ocp" {
+}
+
+etac ("Test -Ocopy -target linux") "-libpath test/lib -target linux -Ocopy" {
+}
+
+etac ("Test -Ovn -target linux") "-libpath test/lib -target linux -Ovn" {
+}
+

@@ -1,0 +1,100 @@
+// eth -testpath test/pa6_rho_front ethScript/eth_pa6_rho_front
+
+build
+
+etac ("Test --help") "--help" {
+}
+
+etac ("Test --lex") "--lex" {
+	init_intf.ri;
+	lex_break.rh;
+	lex_dot.rh;
+	lex_dot1.rh;
+	lex_eta.eta;
+	lex_loop.rh;
+	lex_null.rh;
+	lex_rec.rh;
+	lex_rec_blank.rh;
+	lex_rec_field.rh;
+	lex_rec_init.rh;
+	stmt_intf.ri;
+}
+
+etac ("Test --parse") "--parse" {
+	init_intf.ri;
+	lex_loop.rh;
+	lex_null.rh;
+	lex_rec.rh;
+	lex_rec_blank.rh;
+	lex_rec_field.rh;
+	lex_rec_init.rh;
+	multi_decl1.rh;
+	multi_decl2.rh;
+	multi_decl3.rh;
+	multi_decl4.rh;
+	null_array.rh;
+	null_ptr.rh;
+	rec_arraytype.rh;
+	rec_bubble_sort.rh;
+	rec_equal.rh;
+	rec_fieldtype.rh;
+	rec_noarg.rh;
+	rec_rectype.rh;
+	stmt_intf.ri;
+}
+
+etac ("Test --typecheck") "-libpath test/lib --typecheck" {
+	animal_fun.rh;
+	animal_fun_illegal.rh;
+	animal_redef.rh;
+	animal_redef_illegal.rh;
+	correspondence.rh;
+	create_linked_list.rh;
+	init_intf.ri;
+	intf_overwrite.rh;
+	lex_rec_blank.rh;
+	multi_decl1.rh;
+	multi_decl2.rh;
+	multi_decl3.rh;
+	multi_decl4.rh;
+	nested_intf.rh;
+	null_ptr.rh;
+	record_field_access.rh;
+	rec_arraytype.rh;
+	rec_bubble_sort.rh;
+	rec_equal.rh;
+	rec_fieldtype.rh;
+	rec_noarg.rh;
+	use_private_point.rh;
+}
+
+etac ("Test --irgen") "-libpath test/lib --irgen" {
+}
+
+etac ("Test -O --irgen") "-libpath test/lib --irgen -O" {
+}
+
+etac ("Test -target linux") "-libpath test/lib -target linux" {
+}
+
+etac ("Test -O -target linux") "-libpath test/lib -target linux -O" {
+}
+
+etac ("Test -Oreg -target linux") "-libpath test/lib -target linux -Oreg" {
+}
+
+etac ("Test -Ocf -target linux") "-libpath test/lib -target linux -Ocf" {
+}
+
+etac ("Test -Odce -target linux") "-libpath test/lib -target linux -Odce" {
+}
+
+etac ("Test -Ocp -target linux") "-libpath test/lib -target linux -Ocp" {
+}
+
+etac ("Test -Ocopy -target linux") "-libpath test/lib -target linux -Ocopy" {
+}
+
+etac ("Test -Ovn -target linux") "-libpath test/lib -target linux -Ovn" {
+}
+

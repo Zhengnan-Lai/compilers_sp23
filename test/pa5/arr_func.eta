@@ -1,0 +1,10 @@
+use io
+
+main(args:int[][]) {
+    a:int[][] = {"a", "b", "c"}
+    println(a[g(0)])
+}
+
+g(x:int):int{
+    return x + 1
+}

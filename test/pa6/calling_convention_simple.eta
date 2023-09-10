@@ -1,0 +1,24 @@
+// having 2 arguments and use both
+// returning 2 arguments and read the results
+use io
+use conv
+
+main(args: int[][]){
+    a: int = 1
+    b: int = 2
+    c: int = 3
+    d: int = 4
+    e: int = 5
+    res1: int, res2: int, res3: int, res4: int, res5: int = return_5(a, b, c, d, e)
+    print(unparseInt(res1))
+    print(unparseInt(res2))
+    print(unparseInt(res3))
+    print(unparseInt(res4))
+    print(unparseInt(res5))
+}
+
+return_5(a: int, b: int, c: int, d: int, e: int): int, int, int, int, int{
+    return a, b, c, d, e
+}
+
+

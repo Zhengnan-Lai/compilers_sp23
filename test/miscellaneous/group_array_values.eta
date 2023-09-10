@@ -1,0 +1,10 @@
+a: int[][]
+b: int[3][4]
+a: int = b
+c: bool[3][]
+foo(){
+    c[0] = b[0]; c[1] = b[1]; c[2] = b[2]
+    d: bool[][] = {{false},}
+    s: int[] = {13, 10} + "Hello"
+    g: int[] = "helloWorld" + "worldHello"
+}

@@ -1,0 +1,14 @@
+f(x:int):int{
+    return x+1;
+}
+
+g(){
+
+}
+
+g(){ }
+
+main(){
+    y:int = f(10)
+    x:int = f(f(f(f(f(f(f(f(f(f(f(f(f(f(f(f(f(y)))))))))))))))))
+}

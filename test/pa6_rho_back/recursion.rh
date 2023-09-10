@@ -1,0 +1,18 @@
+use io
+use conv
+
+main(args: int[][]){
+    a: int = 10
+    res: int = accumulate(a, 0)
+    print(unparseInt(res))
+}
+
+accumulate(a: int, res: int): int{
+    if (a == 0){
+        return res
+    }
+    else{
+        return accumulate(a - 1, res + a)
+    }
+}
+

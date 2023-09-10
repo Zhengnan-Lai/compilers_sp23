@@ -1,0 +1,15 @@
+use io
+use conv
+
+main(args: int[][]){
+    n: int = 10
+    x: int = 0
+    y: int = 1
+    while(n > 0){
+        t: int = y
+        y = x + y
+        x = t
+        n = n - 1
+    }
+    print(unparseInt(x))
+}

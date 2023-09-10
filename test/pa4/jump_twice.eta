@@ -1,0 +1,32 @@
+use io
+use conv
+
+main(args: int[][]){
+    jump:int = 0
+    end:int = 0
+    farthest:int = 0
+    i:int = 0
+
+    arr:int[] = {2,3,1,1,4}
+    n:int = 5
+
+    while (i < n - 1) {
+        farthest = max(farthest, i + arr[i])
+        if (i == end) {
+            jump = jump + 1
+            end = farthest
+        }
+        i = i + 1
+    }
+    println(unparseInt(jump))
+}
+
+max(i: int, j:int): int{
+    res:int = 0
+    if (i > j) {
+        res = i
+    } else {
+        res = j
+    }
+    return res
+}

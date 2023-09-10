@@ -1,0 +1,7 @@
+(((use io) (use foo) (use func) (use temp) (use ray))
+ ((main
+   ((args ([] ([] int))))
+   ()
+   ((print "Hello, World!\n") (= (c3po int) (+ 'x' 47)) (= (r2d2 int) c3po)))
+  (arch ((args ([] ([] int)))) () ((print "What is going on???")))
+  (round ((fun ([] ([] bool)))) () ())))

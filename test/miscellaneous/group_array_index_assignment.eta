@@ -1,0 +1,9 @@
+sort(a: int[], b: bool[], c: int[], d:bool[][]){
+    i: int = 3
+    j: int = 10
+    a[i], a[j] = a[j], a[i]
+    _, a[j] = a[j], a[i]
+    a[i], _ = a[j], a[i]
+    d[2][3] = a[j]
+    d[0][2], d[2][0] = d[2][0], d[0][2]
+}

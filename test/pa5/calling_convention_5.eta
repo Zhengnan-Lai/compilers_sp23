@@ -1,0 +1,35 @@
+// having 2 arguments and use both
+// returning 2 arguments and read the results
+use io
+use conv
+
+main(args: int[][]){
+    a: int = 2563343
+    b: int = 986797084
+    c: int = 98763
+    d: int = 9876344
+    e: int = "hello"[0]
+    res1: int, res2: int, res3: int, res4: int, res5: int = standard_deviation_5(a, b, c, d, e)
+    println(unparseInt(res1))
+    println(unparseInt(res2))
+    println(unparseInt(res3))
+    println(unparseInt(res4))
+    println(unparseInt(res5))
+}
+
+standard_deviation_5(arg1: int, arg2: int, arg3: int, arg4: int, arg5: int): int, int, int, int, int{
+    sum: int = 0
+    mean: int = 0
+
+    sum = sum + arg1
+    sum = sum + arg2
+    sum = sum + arg3
+    sum = sum + arg4
+    sum = sum + arg5
+
+    mean = sum / 5
+
+    return arg1 - mean, arg2 - mean, arg3 - mean, arg4 - mean, arg5 - mean
+}
+
+

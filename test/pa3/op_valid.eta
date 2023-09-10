@@ -1,0 +1,37 @@
+f(x:int) : int{
+    return x
+}
+
+g(x:bool) : bool{
+    return x
+}
+
+h(x:int[]) : int[]{
+    return x
+}
+main(){
+    a: int
+    b: bool
+    c: int[]
+    b = true | false
+    b = true & g(false)
+    b = 1 > 2
+    b = 1 < f(2)
+    a = 1 * 2
+    a = 1 / f(2)
+    a = 1 + 2
+    a = 1 + f(2)
+    c = {} + {1,2}
+    b = 1 == 2
+    b = 1 != f(2)
+    b = true == false
+    b = true == g(false)
+    b = {} == {true}
+    b = !true
+    a = -2
+    a = 1 - 2
+    a = c[1]
+    a = c[f(1)]
+    a = (h({1}))[1]
+    a = length(c)
+}

@@ -1,0 +1,24 @@
+use io
+
+a:int[][]
+b:int[][][][]
+c:bool[][][]
+
+main(args:int[][]){
+    x:int[][] = {"hello", "world"}
+    a=x
+    y:int[1][1][][]
+    b=y
+    b[0][0]=a
+    c = {{{true}}}
+    c[0][0][0] = false
+    print(a[0])
+    print(a[1])
+    print(b[0][0][0])
+    println(b[0][0][1])
+    if(c[0][0][0]){
+        println("true")
+    }else{
+        println("false")
+    }
+}

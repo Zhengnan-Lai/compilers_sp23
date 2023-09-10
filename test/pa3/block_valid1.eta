@@ -1,0 +1,9 @@
+main():bool{
+    x:int = 0
+    y:bool = true;
+    {
+        x = 1
+        y = false
+    }
+    return y;
+}

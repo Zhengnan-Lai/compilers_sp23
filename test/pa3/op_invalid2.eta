@@ -1,0 +1,18 @@
+f(x:int) : int{
+    return x
+}
+
+g(x:bool) : bool{
+    return x
+}
+
+h(x:int[]) : int[]{
+    return x
+}
+
+main(){
+    a: int
+    b: bool
+    c: int[]
+    c = {{1,2},{1,3}} + {1}
+}

@@ -1,0 +1,4 @@
+(((use multi_intf))
+ ((rectangle ((x int) (y int)))
+  (main ((args ([] ([] int)))) () ((= (r rectangle) (Point 1 2))))))
+
